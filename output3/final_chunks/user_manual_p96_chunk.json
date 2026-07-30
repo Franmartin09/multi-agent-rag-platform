@@ -1,0 +1,79 @@
+{
+    "document": "user_manual.pdf",
+    "page": 96,
+    "free_text": "96 MT",
+    "tables": [],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output3\\rendered_figures\\user_manual_p96_figure_block_1.png",
+            "internal_text": "SINGLE PHASE MOTORS / MOTEURS MONOPHASES MOTORES MONOFÁSICOS / MOTORI MONOFASE Capacitor EINPHASIGE MOTOREN / MOTORES MONOFASICOS / Condensateur ΛΕΠΤΟΜΕΡΕΙΑ ΑΓΚΙΣΤΡΟΥ / Condensador Condensatore ОДНОФАЗНЫЕ ДВИГАТЕЛИ Kondensator Condensador Συμπυκνωτής Конденсатор E PHASE MOTORS / MOTEURS TRIPHASES MOTORES TRIFÁSICOS / MOTORI TRIFASE DREINPHASE MOTOREN / MOTORES TRIFASICOS / ΤΡΙΦΑΣΙΚΟΙ ΚΙΝΗΤΗΡΕΣ / ТРЕХФАЗНЫЕ ДВИГАТЕЛИ SINGLE PHASE / MONOPHASES THREE PHASE / TRIPHASES MONOFÁSICOS / MONOFASE TRIFÁSICOS / TRIFASE EINPHASIG / MONOFASICOS / DREINPHASIG / TRIFASICOS / ΛΕΠΤΟΜΕΡΕΙΑ ΑΓΚΙΣΤΡΟΥ / ΤΡΙΦΑΣΙΚΟΙ ΚΙΝΗΤΗΡΕΣ/ ОДНОФАЗНЫЕ / ТРЕХФАЗНЫЕ /",
+            "gemini_description": {
+                "purpose": "To illustrate the electrical terminal wiring configurations (single-phase and three-phase delta/star) and schematic power supply circuits for single-phase and three-phase electric motors.",
+                "summary": "This technical diagram provides connection details and electrical schematics for single-phase and three-phase electric motors. It teaches how to configure terminal jumpers for Delta (Δ) and Star (Y) winding connections on three-phase motors, how to wire an external starting/running capacitor on single-phase motors, and the typical line-power circuit protection and connection paths.",
+                "components": [
+                    {
+                        "name": "Capacitor (C)",
+                        "description": "An electrical component used in the single-phase motor configuration to shift phase and facilitate motor starting and running."
+                    },
+                    {
+                        "name": "Terminal Block",
+                        "description": "The physical junction box connector array on the motor where line supply wires and jumper links are secured."
+                    },
+                    {
+                        "name": "Delta (Δ) Jumper Bars",
+                        "description": "Three vertical metal link plates used to configure the three-phase motor windings in a Delta circuit."
+                    },
+                    {
+                        "name": "Star (Y) Jumper Bar",
+                        "description": "A horizontal metal link plate used to short-circuit one side of the three-phase windings to form a Star neutral point."
+                    },
+                    {
+                        "name": "Motor (M / M3)",
+                        "description": "The electric motor unit, shown either as a single-phase motor (M) with an internal heater (H) and capacitor (C), or a three-phase motor (M3)."
+                    },
+                    {
+                        "name": "Switch / Disconnector (S)",
+                        "description": "A control switch or contactor used to safely isolate or energize the motor circuit."
+                    }
+                ],
+                "procedure": [
+                    "Identify the motor type (Single Phase vs. Three Phase) and match the supply voltage requirement.",
+                    "For Single Phase Motors: Connect the incoming Line (L) and Neutral (N) lines to the corresponding terminal block screws, and wire the capacitor across the designated terminal terminals as detailed in the top-right terminal schematic.",
+                    "For Three Phase Delta (Δ) Configuration: Install three vertical jumper bars across the top and bottom terminal rows, and connect phase lines L1, L2, and L3 to the bottom terminals.",
+                    "For Three Phase Star (Y) Configuration: Install a horizontal jumper bar connecting all three top terminals together, and connect phase lines L1, L2, and L3 to the bottom three terminals.",
+                    "For all configurations, ensure the safety ground wire is securely connected to the designated ground terminal.",
+                    "Refer to the lower schematics to install system-level protection elements, such as inline fuses, thermal-magnetic circuit breakers, and isolation switches."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "Single-phase supply uses Line (L/L1) and Neutral (N)."
+                    },
+                    {
+                        "detail": "Three-phase supply uses Phase lines R, S, T (also designated as L1, L2, L3) along with a Neutral (N) line in some network types."
+                    },
+                    {
+                        "detail": "An internal heater (H) is integrated within the single-phase motor housing schematic to prevent moisture condensation when idle."
+                    },
+                    {
+                        "detail": "Protective grounding (earth symbol) is mandatory for both terminal box frames and electrical panel distribution systems."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "Ensure the correct jumper configuration (Delta vs. Star) is used to match the supply voltage, as incorrect configuration can result in motor failure or burnout."
+                    },
+                    {
+                        "warning": "Always verify that the grounding terminal is connected to an approved earth ground before energizing the circuit."
+                    }
+                ]
+            },
+            "bbox": [
+                45.604,
+                28.59699999999998,
+                383.844,
+                552.506
+            ]
+        }
+    ]
+}

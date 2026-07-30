@@ -1,0 +1,53 @@
+{
+    "document": "user_manual.pdf",
+    "page": 95,
+    "free_text": "94 95",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output2\\tables\\user_manual_p95_table_1.csv",
+            "bbox": [
+                191.339,
+                273.89799999999997,
+                221.103,
+                285.23699999999997
+            ],
+            "content": "| Fig. 5 |\n|---|\n| Fig. 5 |"
+        },
+        {
+            "table_id": "table_2",
+            "csv_file": "output2\\tables\\user_manual_p95_table_2.csv",
+            "bbox": [
+                191.339,
+                547.087,
+                221.103,
+                558.4259999999999
+            ],
+            "content": "| Fig. 6 |\n|---|\n| Fig. 6 |"
+        }
+    ],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output2\\rendered_figures\\user_manual_p95_figure_block_1.png",
+            "internal_text": "Pre-filter cover nut / Tuerca tapa prefiltro / Στεγανωτικό παρέμβυσμα / Гайка крышки фильтра груб.оч. / O-ring O-ring Junta tórica Junta tórica προφίλτρου προφίλτρου ельное ельное кольцо кольцо Pre-filter Pre-filter Prefiltro Prefiltro Προφίλτρο Προφίλτρο Seatin joint to be cleaned Logement du joint torique ò nettoyer Basket Asiento junta a limpiar Basket Cesto Alloggiamento guarnizione da pulire Cesto παρέμβυσμα Zu reinigende O-Ringvertiefung παρέμβυσμα Basket Корзина Acento da junta a limpiar Basket Корзина Να καθαριστεί το έδρανο της φλάντζας Подлежащее очистке соединение Fig. 5",
+            "bbox": [
+                37.1,
+                28.59699999999998,
+                375.34000000000003,
+                279.31699999999995
+            ]
+        },
+        {
+            "figure_id": "figure_block_2",
+            "png_file": "output2\\rendered_figures\\user_manual_p95_figure_block_2.png",
+            "internal_text": "Fan Cover Coluvercle Ventilateur Tapa ventilador Copriventola Ventilatordeckel Tampa do ventilador Κάλυμμα ανεμιστήρα Крышка CORRECT / CORRECT INCORRECT / INCORRECT CORRECTO / CORRETTO INCORRECTO / NON CORRETTO RICHTIG / CORRECTO FALSCH / INCORRECTO ΣΩΣΤΌ / ВЕРНО / ΛΑΝΘΑΣΜΈΝΟ / НЕВЕРНО / Fig. 6",
+            "bbox": [
+                37.1,
+                297.95099999999996,
+                375.34000000000003,
+                552.506
+            ]
+        }
+    ]
+}

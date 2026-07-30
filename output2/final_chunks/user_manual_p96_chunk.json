@@ -1,0 +1,19 @@
+{
+    "document": "user_manual.pdf",
+    "page": 96,
+    "free_text": "96 MT",
+    "tables": [],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output2\\rendered_figures\\user_manual_p96_figure_block_1.png",
+            "internal_text": "SINGLE PHASE MOTORS / MOTEURS MONOPHASES MOTORES MONOFÁSICOS / MOTORI MONOFASE Capacitor EINPHASIGE MOTOREN / MOTORES MONOFASICOS / Condensateur ΛΕΠΤΟΜΕΡΕΙΑ ΑΓΚΙΣΤΡΟΥ / Condensador Condensatore ОДНОФАЗНЫЕ ДВИГАТЕЛИ Kondensator Condensador Συμπυκνωτής Конденсатор E PHASE MOTORS / MOTEURS TRIPHASES MOTORES TRIFÁSICOS / MOTORI TRIFASE DREINPHASE MOTOREN / MOTORES TRIFASICOS / ΤΡΙΦΑΣΙΚΟΙ ΚΙΝΗΤΗΡΕΣ / ТРЕХФАЗНЫЕ ДВИГАТЕЛИ SINGLE PHASE / MONOPHASES THREE PHASE / TRIPHASES MONOFÁSICOS / MONOFASE TRIFÁSICOS / TRIFASE EINPHASIG / MONOFASICOS / DREINPHASIG / TRIFASICOS / ΛΕΠΤΟΜΕΡΕΙΑ ΑΓΚΙΣΤΡΟΥ / ΤΡΙΦΑΣΙΚΟΙ ΚΙΝΗΤΗΡΕΣ/ ОДНОФАЗНЫЕ / ТРЕХФАЗНЫЕ /",
+            "bbox": [
+                45.604,
+                28.59699999999998,
+                383.844,
+                552.506
+            ]
+        }
+    ]
+}

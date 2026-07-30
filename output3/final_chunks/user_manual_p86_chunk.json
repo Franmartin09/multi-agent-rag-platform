@@ -1,0 +1,71 @@
+{
+    "document": "user_manual.pdf",
+    "page": 86,
+    "free_text": "اللغة\nالعربية\nاللغة\nالعربية\nةروسام لىع طغضلا قراف زواجت مدع يغبنيف ءالما ىوتسم وقف يرضحتلا ةيتاذ ةخضم بيكرت مت اذإ•\n)mHO 2( 2 0.02\nةيرصق طفشلا ةروسام نوكت نأ بجيو . 2 ءام م لاكساب اجيم ةخضلماب طفشلا\n.ماظنلا لمح دقاوفو طفشلا نمز ديزت فوس ةليوطلا ةرواسلما نلأ نكمم ردق بركأب\n)ةخضلما ةحول لىع تانايبلا رظنا ،ًلاضف( )ددترم( بوانتم رايت ةيذغت ردصم لىإ ةخضلما ليصوت بجي•\n30\n.يربمأ ليلم زواجتي لا ليغشتلل قبتم رايتب لمعي قٍ بتم رايت زاهجب اهتيماحو ،ضيرأ ةليصوت عم",
+    "tables": [],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output3\\rendered_figures\\user_manual_p86_figure_block_1.png",
+            "internal_text": "86 ةماعلا ةملاسلا تاداشرإ .1 عبتُت لم ام رطخ دوجو ةيناكمإ لىإ ) ( زومرلا هذه يرشت .ئيابرهكلا قعصلل ضرعتلا رطخ .رطخ . ئيابرهكلا قعصلل ضرعتلا رطخ لىإ تاداشرلإا هذهب مازتللاا مدع يدؤي دق .رطخ . راضرلأل تاكلتملماو ةباصلإل دارفلأا ضرعت رطخ لىإ تاداشرلإا هذهب مازتللاا مدع يدؤي دق .ريذحت .راضرلأ بيكترلا وأ ةخضلما ضرعت رطخ لىإ تاداشرلإا هذهب مازتللاا مدع يدؤي دق ةماعلا ةملاسلا تمايظنت .2 ماع .بيكرت لكل ةددحلما تاداشرلإل اقً بط بيكترلا بجي- .ةعنصلما ةكشرلا نم ةقبسم ةقفاوم لىع لوصحلا ةخضلما لىع تلايدعتلا ةفاك بلطتت- بركأ ةجرد ةعنصلما ةكشرلا نم ةدمتعلما )تاراوسسكلإا( تاقحللماو رايغلا عطق نمضتو عطق هيف ببستت رضر يأب قلعتي مايف ةيلوؤسم يأ ةعنصلما ةكشرلا لمحتت لاو .ناملأا نم .ةدمتعلما يرغ تاقحللما وأ رايغلا ةيذغتلا نع ةخضلما لصف بجي ،اهب ةلصتلما ىرخلأا ةزهجلأا وأ ةخضم لكب لمعلا دنع- .ليغشتلا ءانثأ ةيح نوكت ةخضملل ةيئابرهكلا ءازجلأاف ،ليغشتلا ةزهجأو ةيئابرهكلا اوأرق دق اونوكي نودمتعم نولهؤم دارفأ ةنايصلاو عيمجتلا لماعأ ةفاكب موقي نأ بجي- .ةقيقد ةءارق ةمدخلاو بيكترلا تاداشرإ .ةمدخلاو بيكترلا تاداشرإب مازتللاا بجي ،ةخضلما ليغشت دنع ةملاسلا نماضل- .عزوم برقأ وأ درّولماب لاصتلاا بجي ،لاطعلأا وأ بيعلما ليغشتلا ةلاح في-",
+            "gemini_description": {
+                "purpose": "To define general safety instructions, warning symbols, and safety regulations for the installation, operation, and maintenance of a pump system.",
+                "summary": "This document outlines the meaning of safety symbols (electric shock, general danger, and equipment damage warnings) and provides general safety regulations, including power disconnection requirements, authorized modifications, and personnel qualification criteria.",
+                "components": [
+                    {
+                        "name": "Electric Shock Hazard Symbol",
+                        "description": "Represented by a lightning bolt inside a triangle. Warns of potential high-voltage exposure risks that can cause severe injury or death."
+                    },
+                    {
+                        "name": "General Danger Symbol",
+                        "description": "Represented by an exclamation mark inside a triangle. Indicates risks that could cause personal injury or property damage."
+                    },
+                    {
+                        "name": "Attention/Warning Symbol",
+                        "description": "Represented by an exclamation mark inside a square. Warns against practices that could cause physical damage to the pump or the installation."
+                    },
+                    {
+                        "name": "Qualified Personnel",
+                        "description": "Authorized technicians who must thoroughly read and understand the installation and service instructions before conducting assembly or maintenance."
+                    }
+                ],
+                "procedure": [
+                    "Read and understand the specific installation and service instructions prior to initiating any work.",
+                    "Obtain prior approval from the manufacturer before implementing any modifications to the pump.",
+                    "Verify that only manufacturer-approved spare parts and accessories are used to ensure safety.",
+                    "Before starting any work on the pump or connected equipment, completely disconnect the pump from the electrical power supply and operating devices.",
+                    "Execute assembly and maintenance tasks using only qualified and authorized personnel.",
+                    "In the event of faulty operation or system malfunctions, immediately contact the supplier or the nearest distributor."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "Electrical parts of the pump remain live during operation, necessitating complete isolation from the power supply before handling."
+                    },
+                    {
+                        "detail": "Safety and warranty compliance require strict adherence to the manufacturer's specific installation guidelines and approved parts list."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "Failure to comply with electric shock warnings poses a direct hazard to human life."
+                    },
+                    {
+                        "warning": "Non-compliance with safety instructions can cause personal injuries and extensive damage to surrounding property."
+                    },
+                    {
+                        "warning": "Unauthorized spare parts or accessories invalidate manufacturer liability for any resulting damages."
+                    },
+                    {
+                        "warning": "Working on the pump while it is connected to a live electrical supply is strictly prohibited."
+                    }
+                ]
+            },
+            "bbox": [
+                36.85,
+                174.33099999999996,
+                375.59000000000003,
+                577.559
+            ]
+        }
+    ]
+}

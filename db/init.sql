@@ -1,46 +1,97 @@
+-- ============================================================
+-- Enable pgvector
+-- ============================================================
+
 CREATE EXTENSION IF NOT EXISTS vector;
 
-CREATE TABLE IF NOT EXISTS documents (
+-- ============================================================
+-- Documents
+-- One row per PDF
+-- ============================================================
+
+CREATE TABLE documents (
     id SERIAL PRIMARY KEY,
+
     filename TEXT NOT NULL UNIQUE,
-    checksum VARCHAR(64) NOT NULL,
-    total_pages INTEGER NOT NULL,
-    processed_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    metadata JSONB
+
+    created_at TIMESTAMP DEFAULT NOW()
 );
 
-CREATE TABLE IF NOT EXISTS extracted_images (
+-- ============================================================
+-- Pages
+-- One row per page (main retrieval unit)
+-- ============================================================
+
+CREATE TABLE pages (
     id SERIAL PRIMARY KEY,
-    document_id INTEGER REFERENCES documents(id) ON DELETE CASCADE,
+
+    document_id INTEGER NOT NULL
+        REFERENCES documents(id)
+        ON DELETE CASCADE,
+
     page_number INTEGER NOT NULL,
+
+    free_text TEXT,
+
+    embedding VECTOR(768),
+
+    created_at TIMESTAMP DEFAULT NOW(),
+
+    UNIQUE(document_id, page_number)
+);
+
+-- ============================================================
+-- Tables
+-- ============================================================
+
+CREATE TABLE tables (
+    id SERIAL PRIMARY KEY,
+
+    page_id INTEGER NOT NULL
+        REFERENCES pages(id)
+        ON DELETE CASCADE,
+
+    table_id TEXT NOT NULL,
+
+    csv_path TEXT NOT NULL,
+
+    bbox JSONB NOT NULL
+);
+
+-- ============================================================
+-- Figures
+-- ============================================================
+
+CREATE TABLE figures (
+    id SERIAL PRIMARY KEY,
+
+    page_id INTEGER NOT NULL
+        REFERENCES pages(id)
+        ON DELETE CASCADE,
+
+    figure_id TEXT NOT NULL,
+
     image_path TEXT NOT NULL,
-    width INTEGER,
-    height INTEGER,
-    format VARCHAR(10),
-    ocr_text TEXT,
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+
+    internal_text TEXT,
+
+    bbox JSONB NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS extracted_tables (
-    id SERIAL PRIMARY KEY,
-    document_id INTEGER REFERENCES documents(id) ON DELETE CASCADE,
-    page_number INTEGER NOT NULL,
-    table_order INTEGER NOT NULL,
-    content_json JSONB NOT NULL,
-    content_csv TEXT,
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
-);
+-- ============================================================
+-- Useful indexes
+-- ============================================================
 
-CREATE TABLE IF NOT EXISTS document_chunks (
-    id SERIAL PRIMARY KEY,
-    document_id INTEGER REFERENCES documents(id) ON DELETE CASCADE,
-    chunk_index INTEGER NOT NULL,
-    page_number INTEGER,
-    content TEXT NOT NULL,
-    token_count INTEGER,
-    embedding VECTOR(1536), -- Soporte pgvector (opcional/NULL por ahora)
-    metadata JSONB,
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
-);
+CREATE INDEX idx_pages_document
+ON pages(document_id);
 
-CREATE INDEX IF NOT EXISTS idx_chunks_document_id ON document_chunks(document_id);
+CREATE INDEX idx_tables_page
+ON tables(page_id);
+
+CREATE INDEX idx_figures_page
+ON figures(page_id);
+
+-- Semantic search index
+CREATE INDEX idx_pages_embedding
+ON pages
+USING hnsw (embedding vector_cosine_ops);

@@ -1,0 +1,21 @@
+﻿1,2,3,4,5,6,CAUSES,SOLUTIONS
+X,X,,,,,Air entering the suction pipe,"Check the condition of connections
+and seals on the suction pipe"
+X,,,,,,Filter cap badly sealed,"Clean the filter cap and check the
+condition of the rubber seal"
+X,X,,,,,Motor turning in wrong direction,Invert 2 power phases
+X,X,,X,,,Wrong voltage,"Check the voltage on the rating
+plate and that of the mains"
+,X,,,,,Pre-filter blocked,Clean the filter
+,X,,,,,Load loss in the installation,"Prevent parts from causing load loss
+wherever possible"
+,,X,,,,Pump incorrectly secured,Secure the pump correctly
+,,,,X,,Motor blocked,"Remove the motor and contact the
+technical service"
+,,,,,X,"Increased temperature in the
+terminal box due to electric arc",Check the junction box connections
+,,,,,X,The thermal protection trips,"Connect the cables correctly to the
+junction boxes"
+,,,,,X,Incorrect junction box connections,"Tighten the cable correctly to the
+junction box / Adapt the size of the
+cable connection to the junction box"

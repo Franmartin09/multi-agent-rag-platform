@@ -1,0 +1,19 @@
+{
+    "document": "user_manual.pdf",
+    "page": 47,
+    "free_text": "Allgemeines Installations- und Wartungshandbuch - PUMPEN FÜR POOLS 47\nHCSTUED\n2. ALLGEMEINE SICHERHEITSBESTIMMUNGEN\nALLGEMEINES\n- Installation gemäß den besonderen Bedingungen jedes Einsatzortes realisieren.\n- Gültige Vorschriften zur Unfallverhütung einhalten.\n- Vor jeder Änderung an der Pumpe muss die Genehmigung des Herstellers eingeholt werden.\nDie Original-Ersatzteile und das vom Hersteller zugelassene Zubehör gewährleisten einen\nhohen Sicherheitsgrad. Der Hersteller der Pumpe lehnt jede Haftung für Schäden aufgrund des\nEinsatzes von nicht zugelassenen Ersatz- oder Zubehörteilen ab.\n- Bei Arbeiten an der Maschine oder daran angeschlossenen Baugruppen müssen sie vorher vom\nNetz und den Inbetriebnahmevorrichtungen getrennt werden, da während des Betriebs die\nelektrischen Teile der Pumpe unter Spannung stehen.\n- Installations- und Betriebsanweisungen einhalten, um die Betriebssicherheit der Maschine zu\ngewährleisten.\n- Bei Betriebsstörungen oder Defekten wenden Sie sich an den Lieferanten oder die nächstgelegene\nVertretung.\nWARNHINWEISE FÜR DIE INSTALLATIONS- UND MONTAGEARBEITEN\n- Nur in Fällen, in denen ein Eingriff am Klemmkasten des Motors erforderlich ist, muss beim\nAnschluss der elektrischen Kabel an das Gerät auf die Anordnung im Inneren des Klemmkastens\ngeachtet werden. Prüfen Sie, dass nach dem Verschluss keine Kabelstücke im Inneren geblieben\nsind und dass der Erdleiter richtig angeschlossen ist.\n- Nur in Fällen, in denen ein Eingriff am Klemmkasten des Motors erforderlich ist, muss beim Ans-\nchluss der elektrischen Kabel an den Klemmkasten des Geräts darauf geachtet werden, dass sie\ngut sitzen und fest an den Anschlüssen festgezogen werden.\n- Dichtung des Klemmenkastens des Elektromotors richtig einsetzen, um den Eintritt von Wasser\nzu verhindern. Ebenso sicherstellen, dass die Stopfbüchse in der Kabeldurchführung des\nKlemmenkastens eingesetzt und angezogen wurde.\n- Insbesondere darauf achten, dass unter keinen Umständen Wasser in den Motor und die\nspannungsführenden Teile eindringen kann.\n- Bei anderweitiger Verwendung als angegeben sind Umbauten und ergänzende technische\nVorschriften erforderlich.",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output2\\tables\\user_manual_p47_table_1.csv",
+            "bbox": [
+                36.85,
+                287.734,
+                374.174,
+                317.18399999999997
+            ],
+            "content": "| X | X | Nach dem Auspacken der Pumpe darf diese nur an der Ansaugöffnung und am Motorgehäuse, und dabei ausschließlich an beiden dieser Punkte gleichzeitig angehoben werden. |\n|---|---|---|"
+        }
+    ],
+    "figures": []
+}

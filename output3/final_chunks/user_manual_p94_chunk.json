@@ -1,0 +1,160 @@
+{
+    "document": "user_manual.pdf",
+    "page": 94,
+    "free_text": "94 95",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output3\\tables\\user_manual_p94_table_1.csv",
+            "bbox": [
+                199.843,
+                273.89799999999997,
+                229.607,
+                285.23699999999997
+            ],
+            "content": "| Fig. 3 |\n|---|\n| Fig. 3 |"
+        },
+        {
+            "table_id": "table_2",
+            "csv_file": "output3\\tables\\user_manual_p94_table_2.csv",
+            "bbox": [
+                199.843,
+                547.087,
+                229.607,
+                558.4259999999999
+            ],
+            "content": "| Fig. 4 |\n|---|\n| Fig. 4 |"
+        }
+    ],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output3\\rendered_figures\\user_manual_p94_figure_block_1.png",
+            "internal_text": "Pump / Pompe / Bomba/ Pompa / Pumpe / Bomba / Βόμβα / Насос / ةلبنق Fig. 4 m 2 .xaM",
+            "gemini_description": {
+                "purpose": "To illustrate the hydraulic layout, flow direction, and critical elevation constraint for installing a pool circulation and filtration system with the pump located above the pool water level.",
+                "summary": "This diagram demonstrates the complete closed-loop filtration cycle of a swimming pool. Water is drawn from the skimmers and main drain, pumped up to a multiport selector valve, routed down through a sand filter, and then returned cleaned to the pool. A critical installation dimension specifies a maximum vertical suction lift of 2 meters between the pool's water level and the pump inlet.",
+                "components": [
+                    {
+                        "name": "Pump",
+                        "description": "The motorized suction and pressure unit, labeled in multiple languages (Pump / Pompe / Bomba / Pompa / Pumpe / Bomba / Βόμβα / Насос / قنبلة). It draws dirty water from the pool and drives it through the filtration system."
+                    },
+                    {
+                        "name": "Multiport Valve",
+                        "description": "A selector valve mounted next to the filter tank that directs water flow paths for filtration, backwashing, rinsing, or draining."
+                    },
+                    {
+                        "name": "Sand Filter Tank",
+                        "description": "A pressure vessel containing sand filtration media. It features an upper diffuser to distribute incoming water and a bottom lateral collector assembly to collect filtered water."
+                    },
+                    {
+                        "name": "Pool Suction Outlets",
+                        "description": "Consists of a bottom main drain and a surface skimmer that draw water from the deepest and shallowest points of the pool."
+                    },
+                    {
+                        "name": "Pool Return Inlets",
+                        "description": "Nozzles that return clean, filtered water back to the pool to maintain proper circulation."
+                    },
+                    {
+                        "name": "Drain / Waste Pipe",
+                        "description": "A discharge pipe connected to the multiport valve to discard waste water during backwashing or draining operations."
+                    }
+                ],
+                "procedure": [
+                    "Water is sucked from the bottom drain and skimmer by the pump.",
+                    "The water travels upward through the suction line into the pump's front strainer chamber.",
+                    "The pump pushes water out of its top outlet into the multiport control valve.",
+                    "The multiport valve directs the water into the top of the sand filter tank where it is dispersed over the sand bed.",
+                    "Water passes downwards through the sand media, which traps suspended particles and debris.",
+                    "Filtered water is collected by the bottom lateral pipes and travels upward through the central riser pipe back into the multiport valve.",
+                    "The multiport valve directs the clean water into the return line, which distributes it back into the pool."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "The diagram specifies a maximum height difference ('Max. 2 m') between the pool's water line and the centerline of the pump's suction inlet."
+                    },
+                    {
+                        "detail": "Flow arrows show unidirectional circulation paths throughout the underground and aboveground piping networks."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "The suction height must not exceed 2 meters (Max. 2 m) from the pool water level to prevent priming loss, cavitation, or reduced system performance."
+                    }
+                ]
+            },
+            "bbox": [
+                45.604,
+                301.78499999999997,
+                383.844,
+                552.506
+            ]
+        },
+        {
+            "figure_id": "figure_block_2",
+            "png_file": "output3\\rendered_figures\\user_manual_p94_figure_block_2.png",
+            "internal_text": "Cebado Priming Remplissage Einfüllstopfen Scarico Carga Φορτίο агрузка Fig. 3",
+            "gemini_description": {
+                "purpose": "To illustrate the proper manual priming procedure for a self-priming centrifugal pump (such as a swimming pool pump) prior to operation.",
+                "summary": "This diagram teaches how to prime a water pump by manually filling its pre-filter/strainer housing with water using an external container. Priming is necessary to displace air inside the pump housing, ensuring the impeller can create the suction required to draw water from the source and preventing damage from dry running.",
+                "components": [
+                    {
+                        "name": "Pre-filter / Strainer Housing",
+                        "description": "The large chamber at the front of the pump assembly that houses the strainer basket and serves as the priming reservoir."
+                    },
+                    {
+                        "name": "Strainer Basket",
+                        "description": "The internal mesh basket located inside the pre-filter housing, pointed to by the multilingual label line, designed to catch large debris before water enters the impeller."
+                    },
+                    {
+                        "name": "Water Container",
+                        "description": "A pitcher or measuring cup used to manually pour priming water into the open pre-filter chamber."
+                    },
+                    {
+                        "name": "Electric Motor",
+                        "description": "The drive unit situated at the rear of the pump assembly, responsible for rotating the internal impeller."
+                    },
+                    {
+                        "name": "Inlet / Suction Port",
+                        "description": "The threaded horizontal connection on the front of the pre-filter chamber where the incoming water pipe is attached."
+                    },
+                    {
+                        "name": "Outlet / Discharge Port",
+                        "description": "The threaded vertical connection on top of the pump housing where the outgoing water pipe is attached."
+                    },
+                    {
+                        "name": "Drain Plug",
+                        "description": "A threaded plug at the bottom front of the pre-filter housing, used for draining water during winterization or maintenance."
+                    }
+                ],
+                "procedure": [
+                    "Ensure the pump is turned off and disconnected from the power supply.",
+                    "Remove the pre-filter chamber lid/cover to access the inside of the strainer housing.",
+                    "Verify that the strainer basket is clean and properly positioned inside the housing.",
+                    "Using a suitable water container, pour water directly into the open pre-filter chamber through the top opening.",
+                    "Fill the chamber completely until the water level reaches the inlet/outlet level, ensuring the impeller housing is flooded.",
+                    "Securely reinstall and tighten the pre-filter chamber lid before restarting the pump."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "The procedure is identified in multiple languages via the indicator line: Cebado (Spanish), Priming (English), Remplissage (French), Einfüllstopfen (German), Scarico (Italian), Carga (Portuguese), Φορτίο (Greek), агрузка (Russian), and تحضير (Arabic)."
+                    },
+                    {
+                        "detail": "The diagram corresponds to Figure 3 ('Fig. 3') of the technical or user manual."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "Never run the pump dry. Operating the pump without water in the priming chamber can cause immediate and severe damage to the mechanical shaft seal."
+                    }
+                ]
+            },
+            "bbox": [
+                45.604,
+                28.59699999999998,
+                383.844,
+                279.31699999999995
+            ]
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "document": "user_manual.pdf",
+    "page": 89,
+    "free_text": "حباسلما تاخضم - ةماعلا ةنايصلاو بيكترلا ليلد 89\nاللغة\nالعربية",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output3\\tables\\user_manual_p89_table_1.csv",
+            "bbox": [
+                45.354,
+                140.09559999999993,
+                352.914,
+                157.04499999999996
+            ],
+            "content": "| X | X |\n|---|---|"
+        }
+    ],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output3\\rendered_figures\\user_manual_p89_figure_block_1.png",
+            "internal_text": "اللغة العربية عفتري ىتح ةخضملل ليولأا )ترلفلا( حشرلما يرضحت بجي ،ةخضملل حيحصلا ليغشتلا نماضل - .)3 لكشلا( طفشلا ةروسام للاخ ءالما عقولما .اهئادأ ينسحتل )ةحابسلا مماح( حبسلما في ءالما ىوتسم تحت ةخضلما بيكرت بجي - .ةفاج ةيوهت ىقلتت اهنأو ةلمتحلما تاناضيفلا نم ةخضلما ةيماح نماض بجي - ةيئابرهكلا تابيكترلا ينب ملم 3 نع لقت لا ةحاسم عم ددعتم لصف زاهج مادختسا ةيرهوجلا ةروضرلا نم نإ- .ئيابرهكلا رايتلا نع ةخضلما لصفل حطسلأا بجيف نرم لباك مدختسُا نإف .ةيسيئرلا ءابرهكلاب ةخضلما ليصوتل يوق لباك مادختسا يغبني- .ةخضلما )روتوم( كرحم فارطأب هليصوتل تاورعب ادً وزم نوكي نأ .ةخضلما ةدش عم قفاوتي ابم ضيرلأا لاطعأ ةرئاد عطاق ةميق ليدعت / طبض بجي- .بولطلما )زويفلا( رهصنلما عون نم دكأتلا بجي ،)روتولما( كرحلما ليصوت لبق- .ةخضلماب ضيرلأا لباك ليصوتو بيتترلا ةعجارم بجي- مازتللاا مدع يدؤي نأ نكيمو .ةيئابرهكلا تلايصوتلاو تابيكترلاب ةينعلما تاداشرلإاب مازتللاا بجي- .نماضلا لاطبإو ءاغلإو ةيلوؤسم يأ لمحت ةخضملل ةعنصلما ةكشرلا ضفر لىإ تاداشرلإا هذهب .ةصاخ ةيميظنت حئاولل بيكترلا عضخي نأ نكيم- .ئيابرهكلا قعصلل ضرعتلا رطخ لىع ةيسيئرلا ءابرهكلاب ةحيحصلا يرغ تلايصوتلا يوطنت- :روطلا يداحأ كرحبم ةزهجلما تاخضلما .ةيرارح ةيماح لىع لمتشت• .ةيسيطانغم ةيماح ةزيهجتب )روتوم( كرحم يقاو مادختسا بجي• .ةيماح ةزيهجتب لعفلاب دوزم كرحلماف ،يرارحلا لحرلما طبض تانايبب داشترسلاا يغبني• عطقم عم H07 RN-F3 عون نم ليصوت ةبلج مادختسا بجي ،تلوف 032 ةيتلوفلا تناك اذإ• .لباكلا لوطو كرحلما ةردق عم قفاوتي لباك :روطلا ثيلاث كرحبم ةزهجلما تاخضلما .ةيسيطانغم ةيماح ةزيهجتب )روتوم( كرحم يقاو مادختسا بجي• .كرحملل عطاق حاتفبم ةدئازلا لماحلأا نم ةخضلما ةيماح بجي• ةليصوتلل ةبسنلاب .ةيرارحلا ةيماحلا لودجل اقً بط ةيرارحلا ةميقلا طبض يغبني• ةبسنلاب .اهيلإ راشم ةميق لىعأب ةيماح ةزيهجت مادختسا بجي ،)تلوف 032 × 3 ةكبش( Δ .اهيلإ راشم ةميق لقأب ةيماح ةزيهجت مادختسا بجي ،)تلوف 004 × 3 ةكبش( Υ ةليصوتلل",
+            "gemini_description": {
+                "purpose": "To provide critical installation, site placement, and electrical wiring instructions for a water pump (such as a swimming pool pump) to ensure safe and correct operation.",
+                "summary": "This document outlines the essential guidelines for the physical location of the water pump, safety warnings, general electrical connections, and specific requirements for both single-phase and three-phase motor configurations to prevent electrical hazards and protect the equipment.",
+                "components": [
+                    {
+                        "name": "Water Pump (المضخة)",
+                        "description": "The main mechanical device used to pump water, typically for swimming pools."
+                    },
+                    {
+                        "name": "Primary Filter / Pre-filter (المرشح الأولي)",
+                        "description": "Component that must be primed with water before starting the pump to ensure correct operation."
+                    },
+                    {
+                        "name": "Suction Pipe (ماسورة الشط)",
+                        "description": "The intake line through which water rises to reach the pump."
+                    },
+                    {
+                        "name": "Electric Motor (المحرك)",
+                        "description": "The power unit driving the pump, available in either single-phase or three-phase configurations."
+                    },
+                    {
+                        "name": "Disconnect Device (جهاز فصل)",
+                        "description": "An omnipolar isolation switch with at least 3 mm of contact separation to disconnect the pump from the mains."
+                    },
+                    {
+                        "name": "Ground Fault Circuit Interrupter / Breaker (قاطع دائرة أعطال الأرضي)",
+                        "description": "A safety device adjusted to match the electrical current rating of the pump."
+                    },
+                    {
+                        "name": "Fuses (المنصهر / الفيوز)",
+                        "description": "Overcurrent protection devices that must be verified before connecting the motor."
+                    },
+                    {
+                        "name": "Grounding Cable (كابل الأرضي)",
+                        "description": "A safety cable connected to the ground to prevent electric shock."
+                    },
+                    {
+                        "name": "Connection Sleeve / Gland (جلبة توصيل)",
+                        "description": "Specifically a H07 RN-F3 type sleeve used for electrical cable connections."
+                    }
+                ],
+                "procedure": [
+                    "Priming: Fill and prime the pump's pre-filter (primary filter) until water rises through the suction pipe before starting.",
+                    "Placement: Install the pump below the swimming pool water level to optimize its performance.",
+                    "Environmental Protection: Ensure the pump is located in a dry, ventilated area and protected from potential flooding.",
+                    "Electrical Isolation: Install an omnipolar disconnection device with a contact separation of at least 3 mm to isolate the pump from the mains power.",
+                    "Power Cable Connection: Use a robust cable to connect the pump to the main electrical supply. If using a flexible cable, terminate it with terminal eyelets for secure connection to the motor terminals.",
+                    "Safety Device Setup: Adjust the ground fault circuit breaker to match the pump's rated current.",
+                    "Fuse Check: Verify that the correct fuse types are installed before connecting the motor to the power source.",
+                    "Grounding: Verify the wiring sequence and connect the grounding cable securely to the pump.",
+                    "Compliance: Ensure all electrical wiring adheres to local regulatory codes and technical guidelines."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "Contact separation for the electrical disconnect device must be at least 3 mm."
+                    },
+                    {
+                        "detail": "For single-phase motors: Equipped with built-in thermal protection. Must be fitted with a motor protector with magnetic protection. Set the thermal relay values based on specifications."
+                    },
+                    {
+                        "detail": "Single-phase voltage specification: 230V (noted in text as '032 فولت' due to a numerical reversal typo). Connection requires a H07 RN-F3 cable sleeve with a cross-section appropriate for the motor power and cable length."
+                    },
+                    {
+                        "detail": "For three-phase motors: Must use a motor protector with magnetic protection. Protect the pump from overloads using a circuit breaker."
+                    },
+                    {
+                        "detail": "Three-phase Delta connection (Δ): Specified for 3 x 230V (written as 3 x 032V), requiring the use of the highest indicated protection device value from the thermal protection table."
+                    },
+                    {
+                        "detail": "Three-phase Star connection (Y): Specified for 3 x 400V (written as 3 x 004V), requiring the use of the lowest indicated protection device value from the thermal protection table."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "Failure to comply with technical and electrical connection guidelines voids the manufacturer's warranty and releases them from liability."
+                    },
+                    {
+                        "warning": "Improper connection to the mains supply poses a critical risk of electrical shock."
+                    },
+                    {
+                        "warning": "The pump must be installed in a well-ventilated, dry area protected against any risk of flooding."
+                    }
+                ]
+            },
+            "bbox": [
+                45.354,
+                28.34699999999998,
+                384.094,
+                552.756
+            ]
+        }
+    ]
+}

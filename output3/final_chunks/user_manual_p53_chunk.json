@@ -1,0 +1,19 @@
+{
+    "document": "user_manual.pdf",
+    "page": 53,
+    "free_text": "Allgemeines Installations- und Wartungshandbuch - PUMPEN FÜR POOLS 53\nHCSTUED\n7. STÖRUNGSTABELLE\n1. Die Pumpe entlüftet sich nicht 4. Die Pumpe läuft nicht an\n2. Die Pumpe fördert wenig Wasser 5. Der Motor macht Geräusche, er läuft aber nicht an\n3. Die Pumpe verursacht Geräusche 6. Der Motor bleibt stehen",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output3\\tables\\user_manual_p53_table_1.csv",
+            "bbox": [
+                37.100369230769225,
+                105.46804999999992,
+                374.42326153846165,
+                551.8232999999999
+            ],
+            "content": "| 1 | 2 | 3 | 4 | 5 | 6 | URSACHEN | LÖSUNGEN |\n|---|---|---|---|---|---|---|---|\n| X | X |  |  |  |  | Lufteintritt über die Saugleitung | Zustand der Anschlüsse und Dichtungen der Saugleitung prüfen |\n| X |  |  |  |  |  | Mangelnde Dichtigkeit des Filterdeckels | Den Filterdeckel reinigen und den Zustand der Gummidichtung prüfen |\n| X | X |  |  |  |  | Falsche Laufrichtung des Motors | 2 Pole der Netzversorgung vertauschen |\n| X | X |  | X |  |  | Falsche Spannung | Spannungsangaben von Typenschild und Netz prüfen |\n|  | X |  |  |  |  | Der Vorfilter ist verstopft | Den Filter reinigen |\n|  | X |  |  |  |  | Lastverlust in der Installation | Möglichst verhindern, dass die Elemente Lastverlust verursachen |\n|  |  | X |  |  |  | Unsachgemäße Befestigung der Pumpe | Die Pumpe korrekt befestigen |\n|  |  |  |  | X |  | Der Motor blockiert | Den Motor ausbauen und zum Kundendienst bringen |\n|  |  |  |  |  | X | Temperaturanstieg im Klemmenkasten aufgrund eines Spannungsbogens | Die Anschlüsse im Klemmenkasten prüfen |\n|  |  |  |  |  | X | Der Überhitzungsschutz wird ausgelöst | Die Anschlüsse der Kabel an die Klemmen im Klemmenkasten fachgerecht vornehmen |\n|  |  |  |  |  | X | Die Anschlüsse im Klemmenkasten sind mangelhaft | Das Kabel mit der Klemme fest anziehen / Die Größe der Kabelverbindung an die Klemmen des Klemmenkastens anpassen |"
+        }
+    ],
+    "figures": []
+}

@@ -1,0 +1,134 @@
+{
+    "document": "user_manual.pdf",
+    "page": 95,
+    "free_text": "94 95",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output3\\tables\\user_manual_p95_table_1.csv",
+            "bbox": [
+                191.339,
+                273.89799999999997,
+                221.103,
+                285.23699999999997
+            ],
+            "content": "| Fig. 5 |\n|---|\n| Fig. 5 |"
+        },
+        {
+            "table_id": "table_2",
+            "csv_file": "output3\\tables\\user_manual_p95_table_2.csv",
+            "bbox": [
+                191.339,
+                547.087,
+                221.103,
+                558.4259999999999
+            ],
+            "content": "| Fig. 6 |\n|---|\n| Fig. 6 |"
+        }
+    ],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output3\\rendered_figures\\user_manual_p95_figure_block_1.png",
+            "internal_text": "Pre-filter cover nut / Tuerca tapa prefiltro / Στεγανωτικό παρέμβυσμα / Гайка крышки фильтра груб.оч. / O-ring O-ring Junta tórica Junta tórica προφίλτρου προφίλτρου ельное ельное кольцо кольцо Pre-filter Pre-filter Prefiltro Prefiltro Προφίλτρο Προφίλτρο Seatin joint to be cleaned Logement du joint torique ò nettoyer Basket Asiento junta a limpiar Basket Cesto Alloggiamento guarnizione da pulire Cesto παρέμβυσμα Zu reinigende O-Ringvertiefung παρέμβυσμα Basket Корзина Acento da junta a limpiar Basket Корзина Να καθαριστεί το έδρανο της φλάντζας Подлежащее очистке соединение Fig. 5",
+            "gemini_description": {
+                "purpose": "To illustrate the assembly, exploded view, and maintenance requirements for a pump's pre-filter unit.",
+                "summary": "This diagram teaches the correct assembly order and components of a pump pre-filter (specifically the cover nut, O-ring, pre-filter body, and basket) and highlights a critical maintenance instruction to clean the O-ring seating joint during reassembly to ensure a proper seal.",
+                "components": [
+                    {
+                        "name": "Pre-filter cover nut",
+                        "description": "The threaded retaining nut used to secure the cover of the pre-filter housing."
+                    },
+                    {
+                        "name": "O-ring",
+                        "description": "The elastomer sealing ring that provides a watertight/airtight seal between the cover nut and the pre-filter body."
+                    },
+                    {
+                        "name": "Pre-filter",
+                        "description": "The main outer housing of the pre-filter assembly containing the inlet and outlet interfaces."
+                    },
+                    {
+                        "name": "Basket",
+                        "description": "The removable strainer basket situated inside the pre-filter housing designed to capture large debris."
+                    }
+                ],
+                "procedure": [
+                    "Disassemble the pre-filter cover nut by unscrewing it from the pre-filter housing.",
+                    "Remove the O-ring and extract the strainer basket from the pre-filter body.",
+                    "Perform necessary cleaning or maintenance on the basket and housing.",
+                    "Carefully clean the O-ring seating joint ('Seatin joint to be cleaned') on the pre-filter body to remove any debris, sand, or residue.",
+                    "Reinstall the basket back into the pre-filter housing.",
+                    "Fit the O-ring back into its designated, cleaned seating joint.",
+                    "Reassemble and hand-tighten the pre-filter cover nut back onto the pre-filter body."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "The diagram features multilingual terminology translations in English, Spanish, French, Italian, German, Portuguese, Greek, Russian, and Arabic."
+                    },
+                    {
+                        "detail": "The left side shows a cross-sectional cut view of the assembled cover/nut components, while the right side displays the profile view."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "The O-ring seating joint ('Seatin joint to be cleaned') must be completely clean; any debris on this joint can cause vacuum/suction leaks, preventing the pump from priming properly."
+                    }
+                ]
+            },
+            "bbox": [
+                37.1,
+                28.59699999999998,
+                375.34000000000003,
+                279.31699999999995
+            ]
+        },
+        {
+            "figure_id": "figure_block_2",
+            "png_file": "output3\\rendered_figures\\user_manual_p95_figure_block_2.png",
+            "internal_text": "Fan Cover Coluvercle Ventilateur Tapa ventilador Copriventola Ventilatordeckel Tampa do ventilador Κάλυμμα ανεμιστήρα Крышка CORRECT / CORRECT INCORRECT / INCORRECT CORRECTO / CORRETTO INCORRECTO / NON CORRETTO RICHTIG / CORRECTO FALSCH / INCORRECTO ΣΩΣΤΌ / ВЕРНО / ΛΑΝΘΑΣΜΈΝΟ / НЕВЕРНО / Fig. 6",
+            "gemini_description": {
+                "purpose": "To demonstrate the correct rotational direction of the pump motor's cooling fan.",
+                "summary": "This diagram (Fig. 6) teaches the user how to verify the correct rotation direction of the pump motor fan. It highlights the fan cover and provides visual indicators for correct (clockwise) and incorrect (counter-clockwise) rotation.",
+                "components": [
+                    {
+                        "name": "Pump and Motor Assembly",
+                        "description": "The combined pump housing and electric motor unit."
+                    },
+                    {
+                        "name": "Cooling Fan",
+                        "description": "The multi-blade fan mounted on the rear shaft of the motor to provide cooling airflow."
+                    },
+                    {
+                        "name": "Fan Cover",
+                        "description": "The protective cover/shroud that fits over the motor fan. Labeled in multiple languages (English: Fan Cover, French: Couvercle Ventilateur, Spanish: Tapa ventilador, Italian: Copriventola, German: Ventilatordeckel, Portuguese: Tampa do ventilador, Greek: Κάλυμμα ανεμιστήρα, Russian: Крышка, Arabic: غطاء المروحة)."
+                    }
+                ],
+                "procedure": [
+                    "Locate the fan cover at the rear end of the pump motor.",
+                    "Observe the rotation of the cooling fan during startup or operation.",
+                    "Verify that the fan rotates in a clockwise direction as indicated by the 'CORRECT' diagram.",
+                    "If the fan rotates in a counter-clockwise direction, stop operation immediately as indicated by the 'INCORRECT' diagram, and correct the electrical phasing or wiring."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "Correct rotation direction: Clockwise (as viewed looking directly at the fan/rear of the motor)."
+                    },
+                    {
+                        "detail": "Incorrect rotation direction: Counter-clockwise."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "Operating the pump with an incorrect (counter-clockwise) motor rotation is forbidden and can lead to damage or lack of pump performance."
+                    }
+                ]
+            },
+            "bbox": [
+                37.1,
+                297.95099999999996,
+                375.34000000000003,
+                552.506
+            ]
+        }
+    ]
+}

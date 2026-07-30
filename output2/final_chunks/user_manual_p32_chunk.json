@@ -1,0 +1,19 @@
+{
+    "document": "user_manual.pdf",
+    "page": 32,
+    "free_text": "32 Manual de instalación y mantenimiento general - BOMBAS PARA PISCINAS\nLOÑAPSE - Vaciar la bomba de agua en los casos que tenga que permanecer algún tiempo sin\nfuncionar, principalmente en países fríos donde pueda existir peligro de congelación.\n- Para efectuar el vaciado de la bomba, extraer el tapón de purga.\n- Cada vez que se abra el prefiltro, limpiar de impurezas el asiento de la junta y la propia\njunta, para asegurar la estanqueidad en el cierre de la tapa (Fig. 5).\n- Los componentes de la bomba que por su uso habitual sufren desgaste y/o deterioro han\nde ser repuestos periódicamente para mantener el buen rendimiento de la bomba. En la\nsiguiente tabla se detallan los componentes fungibles y/o consumibles de la bomba y el\nperiodo de tiempo en el cuál deben sustituirse:\n(1) La apertura y cierre de la bomba para la sustitución de alguno de los recambios internos no garantiza\nla posterior estanqueidad. Por este motivo se recomiendan sustituir, las juntas tóricas y elementos de\nestanqueidad siempre cuando se sustituya la junta mecánica y/o rodamientos.\nEl periodo de vida de las piezas anteriores ha sido establecido según condiciones normales de uso e\ninstalación del producto.\nSeguir las instrucciones del manual de instalación para mantener el periodo de vida de la bomba.\n6. DESMONTAJE\n-El conjunto del motor puede ser desmontado del cuerpo de la bomba, sin necesidad de desco-\nnectar las tuberías de aspiración e impulsión de la bomba.\n-Para desmontar el Conjunto motor del cuerpo de la bomba, quitar los tornillos que los unen.",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output2\\tables\\user_manual_p32_table_1.csv",
+            "bbox": [
+                45.776275,
+                165.16409999999993,
+                382.92716666666666,
+                251.01299999999998
+            ],
+            "content": "| DESCRIPCIÓN DEL COMPONENTE | PERIODO DE TIEMPO PARA SER SUSTITUIDO |\n|---|---|\n| Condensador | 1 año |\n| Rodamientos | 1 año |\n| Cierre mecánico | 1 año |\n| Juntas y otros elementos de estanqueidad (1) | 1 año |"
+        }
+    ],
+    "figures": []
+}

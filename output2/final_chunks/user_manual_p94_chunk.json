@@ -1,0 +1,53 @@
+{
+    "document": "user_manual.pdf",
+    "page": 94,
+    "free_text": "94 95",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output2\\tables\\user_manual_p94_table_1.csv",
+            "bbox": [
+                199.843,
+                273.89799999999997,
+                229.607,
+                285.23699999999997
+            ],
+            "content": "| Fig. 3 |\n|---|\n| Fig. 3 |"
+        },
+        {
+            "table_id": "table_2",
+            "csv_file": "output2\\tables\\user_manual_p94_table_2.csv",
+            "bbox": [
+                199.843,
+                547.087,
+                229.607,
+                558.4259999999999
+            ],
+            "content": "| Fig. 4 |\n|---|\n| Fig. 4 |"
+        }
+    ],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output2\\rendered_figures\\user_manual_p94_figure_block_1.png",
+            "internal_text": "Pump / Pompe / Bomba/ Pompa / Pumpe / Bomba / Βόμβα / Насос / ةلبنق Fig. 4 m 2 .xaM",
+            "bbox": [
+                45.604,
+                301.78499999999997,
+                383.844,
+                552.506
+            ]
+        },
+        {
+            "figure_id": "figure_block_2",
+            "png_file": "output2\\rendered_figures\\user_manual_p94_figure_block_2.png",
+            "internal_text": "Cebado Priming Remplissage Einfüllstopfen Scarico Carga Φορτίο агрузка Fig. 3",
+            "bbox": [
+                45.604,
+                28.59699999999998,
+                383.844,
+                279.31699999999995
+            ]
+        }
+    ]
+}

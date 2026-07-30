@@ -1,0 +1,19 @@
+{
+    "document": "user_manual.pdf",
+    "page": 63,
+    "free_text": "Manual de instalação e manutenção geral - BOMBAS PARA PISCINAS 63\nSÊUGUTROP\n7. TABELA DE AVARIAS\n1. A bomba não enche 4. A bomba não arranca\n2. A bomba apresenta pouco caudal 5. O motor faz barulho mas não arranca\n3. A bomba faz ruído 6. Paragem do motor",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output3\\tables\\user_manual_p63_table_1.csv",
+            "bbox": [
+                37.100369230769225,
+                105.46804999999992,
+                374.42326153846165,
+                483.8422
+            ],
+            "content": "| 1 | 2 | 3 | 4 | 5 | 6 | CAUSAS | SOLUÇÕES |\n|---|---|---|---|---|---|---|---|\n| X | X |  |  |  |  | Entrada de ar pela tubagem de aspiração | Verificar o estado das uniões e das juntas do tubo de aspiração |\n| X |  |  |  |  |  | Estanquidade deficiente da tampa do filtro | Limpar a tampa do filtro e verificar o estado da junta de borracha |\n| X | X |  |  |  |  | Rotação do motor invertida | Inverter 2 fases da alimentação |\n| X | X |  | X |  |  | Tensão incorreta | Verificar a tensão da placa de características e a da rede elétrica |\n|  | X |  |  |  |  | Pré-filtro obstruído | Limpar o filtro |\n|  | X |  |  |  |  | Perdas de carga na instalação | Evitar ao máximo que os elementos produzam perdas de carga |\n|  |  | X |  |  |  | Fixação incorreta da bomba | Fixar corretamente a bomba |\n|  |  |  |  | X |  | Motor bloqueado | Desmontar o motor e consultar o serviço técnico |\n|  |  |  |  |  | X | Aumento da temperatura na caixa de terminais por ação do arco voltaico | Verificar as ligações da caixa de terminais |\n|  |  |  |  |  | X | O protetor térmico dispara | Realizar corretamente a ligação dos cabos aos terminais das caixas de terminais |\n|  |  |  |  |  | X | Ligações da caixa de terminais mal efetuadas | Apertar corretamente o cabo no terminal / Adaptar o tamanho da ligação do cabo aos terminais da caixa de terminais |"
+        }
+    ],
+    "figures": []
+}

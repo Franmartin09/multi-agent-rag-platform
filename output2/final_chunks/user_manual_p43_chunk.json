@@ -1,0 +1,19 @@
+{
+    "document": "user_manual.pdf",
+    "page": 43,
+    "free_text": "Manuale di installazione e manutenzione generale - POMPE PER PISCINE 43\nONAILATI\n7. RISOLUZIONE DEI PROBLEMI\n1. La pompa non si innesca 4. La pompa non si avvia\n2. La portata della pompa è ridotta 5. Il motore fa rumore ma non si avvia\n3. La pompa fa rumore 6. Arresto del motore",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output2\\tables\\user_manual_p43_table_1.csv",
+            "bbox": [
+                37.100369230769225,
+                102.63324999999999,
+                374.42326153846165,
+                480.6850999999998
+            ],
+            "content": "| 1 | 2 | 3 | 4 | 5 | 6 | CAUSE | SOLUZIONI |\n|---|---|---|---|---|---|---|---|\n| X | X |  |  |  |  | Entrata di aria dalla tubazione di aspirazione | Verificare lo stato dei raccordi e delle guarnizioni del tubo di aspirazione |\n| X |  |  |  |  |  | Tenuta insufficiente del coperchio del filtro | Pulire il coperchio del filtro e verificare lo stato della guarnizione di gomma |\n| X | X |  |  |  |  | Rotazione invertita del motore | Invertire 2 fasi di alimentazione |\n| X | X |  | X |  |  | Tensione erronea | Verificare il voltaggio della targhetta delle caratteristiche e quello della rete |\n|  | X |  |  |  |  | Prefiltro intasato | Pulire il filtro |\n|  | X |  |  |  |  | Perdite di carico nell'installazione | Evitare il più possibile che gli elementi generino perdite di carico |\n|  |  | X |  |  |  | Fissaggio non corretto della pompa | Fissare correttamente la pompa |\n|  |  |  |  | X |  | Motore bloccato | Smontare il motore e rivolgersi al servizio tecnico |\n|  |  |  |  |  | X | Aumento della temperatura nella morsettiera a causa di arco elettrico | Verificare i collegamenti della morsettiera |\n|  |  |  |  |  | X | Scatta il termointerruttore | Effettuare correttamente il collegamento dei cavi con i terminali della morsettiera |\n|  |  |  |  |  | X | Collegamenti della morsettiera non corretti | Stringere correttamente il cavo con il terminale / adeguare la misura del collegamento del cavo ai terminali della morsettiera |"
+        }
+    ],
+    "figures": []
+}
