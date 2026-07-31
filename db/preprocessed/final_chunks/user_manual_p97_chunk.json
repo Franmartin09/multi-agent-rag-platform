@@ -1,0 +1,50 @@
+{
+    "document": "user_manual.pdf",
+    "page": 97,
+    "free_text": "97\n\n### Tabla (table_1)\n| X | X |\n|---|---|\n\n### Tabla (table_2)\n| X | X |\n|---|---|\n| X | X |\n| X | X |\n| X | X |\n| X | X |\n| X | X |\n| X | X |\n| X | X |",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output4\\tables\\user_manual_p97_table_1.csv",
+            "bbox": [
+                206.92222242990653,
+                307.8158888888889,
+                206.92222242990658,
+                315.37199999999996
+            ],
+            "content": "| X | X |\n|---|---|"
+        },
+        {
+            "table_id": "table_2",
+            "csv_file": "output4\\tables\\user_manual_p97_table_2.csv",
+            "bbox": [
+                206.92222242990653,
+                353.56449999999995,
+                206.92222242990658,
+                552.506
+            ],
+            "content": "| X | X |\n|---|---|\n| X | X |\n| X | X |\n| X | X |\n| X | X |\n| X | X |\n| X | X |\n| X | X |"
+        }
+    ],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output4\\rendered_figures\\user_manual_p97_figure_block_1.png",
+            "internal_text": "Zone 2 Zone 1 Zone 2 m 5,2 m 5,2 1,5 m 1,5 m Zone 1 Zone 0 Zone 0 1,5 m 2,0 m 2,0 m 1,5 m Zone 0 2,0 m 1,5 m 2,0 m m 5,2 m 5,2 m 5,2 1,5 m 1,5 m 2,0 m 1,5 m m 5,2 Zone 1 Zone 2 Zone 0 Zone 2 Zone 0 Outdoor area Zone 1 Zone 2 m0,2 2,0m m5,1 1,5m Zone 0 gninaelc teeF 0 enoZ INSTALLATION ZONES - Areas highlighted: the pump may be installed here / ZONES D’INSTALLATION - Espaces mentionnés : la pompe peut y être installée ZONAS DE INSTALACIÓN - Zonas marcadas: la bomba puede instalarse aquí / ZONE DI INSTALLAZIONE - Aree evidenziate: qui è possibile installare la pompa INSTALLATIONSBEREICHE - Markierte Bereiche: hier darf die Pumpe installiert werden / ZONAS DE INSTALAÇÃO - Zonas destacadas: a bomba pode ser instalada aqui ΖΏΝΕΣ ΕΓΚΑΤΆΣΤΑΣΗΣ - Περιοχές που επισημαίνονται: η αντλία μπορεί να εγκατασταθεί εδώ / ЗОНЫ УСТАНОВКИ - выделены: насос может быть установлен здесь / انه ةخضلما بيكرت نكيم :ةللظلما قطانلما - كيترلا قطانم r2 = 3,5 m r1 = 2,0 m r1 = 2,0 m r1 = 2,0 m S1 S2 r2 = 3,5 m r1 = 2,0 m r2 = 3,5 m",
+            "gemini_description": {
+                "purpose": "",
+                "summary": "",
+                "components": [],
+                "procedure": [],
+                "technical_details": [],
+                "warnings": []
+            },
+            "bbox": [
+                41.352,
+                28.59699999999998,
+                379.592,
+                552.506
+            ]
+        }
+    ]
+}

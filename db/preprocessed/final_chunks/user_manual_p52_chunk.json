@@ -1,0 +1,19 @@
+{
+    "document": "user_manual.pdf",
+    "page": 52,
+    "free_text": "52 Allgemeines Installations- und Wartungshandbuch - PUMPEN FÜR POOLS\nHCSTUED\n(1) Das Öffnen und Schließen der Pumpe für den Austausch von inerten Ersatzteilen garantiert keine\nanschließende Dichtigkeit. Aus diesem Grund wird empfohlen, die O-Ringe und Dichtungselemente\nzu ersetzen, wenn die Gleitringdichtung und / oder Lager ausgetauscht werden.\nDie geschätzte Lebensdauer obiger Bauteile entspricht normalen Nutzungs-und Installationsbedin-\ngungen des Produkts.\nZur Verlängerung der Lebensdauer der Pumpe die Anweisungen des Installationshandbuchs befolgen.\n6. DEMONTAGE\n- Die Motor-Baugruppe kann vom Pumpengehäuse abgebaut werden, ohne die Saug- und\nDruckleitung der Pumpe abzutrennen.\n- Zum Abnehmen der Motor-Baugruppe vom Pumpengehäuse die Verbindungsschrauben lösen.\n\n### Tabla (table_1)\n| BAUTEILBESCHREIBUNG | ERSETZEN NACH |\n|---|---|\n| Kondensator | 1 Jahr |\n| Lager | 1 Jahr |\n| Mechanischer Verschluss | 1 Jahr |\n| Fugen und andere Dichtungselemente (1) | 1 Jahr |",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output4\\tables\\user_manual_p52_table_1.csv",
+            "bbox": [
+                45.776275,
+                28.596949999999993,
+                382.92716666666666,
+                117.68349999999998
+            ],
+            "content": "| BAUTEILBESCHREIBUNG | ERSETZEN NACH |\n|---|---|\n| Kondensator | 1 Jahr |\n| Lager | 1 Jahr |\n| Mechanischer Verschluss | 1 Jahr |\n| Fugen und andere Dichtungselemente (1) | 1 Jahr |"
+        }
+    ],
+    "figures": []
+}

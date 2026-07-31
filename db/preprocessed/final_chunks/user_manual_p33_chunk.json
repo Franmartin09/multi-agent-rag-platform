@@ -1,0 +1,19 @@
+{
+    "document": "user_manual.pdf",
+    "page": 33,
+    "free_text": "Manual de instalación y mantenimiento general - BOMBAS PARA PISCINAS 33\nLOÑAPSE\n7. TABLA DE FALLOS\n1. La bomba no se ceba 4. La bomba no arranca\n2. La bomba da poco caudal 5. El motor hace ruido pero no se pone en marcha\n3. La bomba hace ruido 6. Paro del motor\n\n### Tabla (table_1)\n| 1 | 2 | 3 | 4 | 5 | 6 | CAUSAS | SOLUCIONES |\n|---|---|---|---|---|---|---|---|\n| X | X |  |  |  |  | Entrada de aire por la tubería de aspiración | Comprobar el estado de racores y juntas del tubo de aspiración |\n| X |  |  |  |  |  | Mala estanqueidad de tapa del filtro | Limpiar la tapa filtro y comprobar estado de la junta goma |\n| X | X |  |  |  |  | Giro del motor invertido | Invertir 2 fases de la alimentación |\n| X | X |  | X |  |  | Voltaje erróneo | Comprobar el voltaje de la placa característica y el de la red |\n|  | X |  |  |  |  | Prefiltro obturado | Limpiar el filtro |\n|  | X |  |  |  |  | Pérdidas de carga en la instalación | Evitar al máximo que los elementos produzcan pérdidas de carga |\n|  |  | X |  |  |  | Fijación incorrecta de la bomba | Fijar correctamente la bomba |\n|  |  |  |  | X |  | Motor bloqueado | Desmontar el motor y acudir al servicio técnico |\n|  |  |  |  |  | X | Aumento de la temperatura en la caja de bornes por efecto de arco voltaico | Comprobar las conexiones de la caja de bornes |\n|  |  |  |  |  | X | Salta el protector térmico | Realizar correctamente la conexión de los cables con los terminales de las cajas de bornes |\n|  |  |  |  |  | X | Conexiones caja bornes mal efectuadas | Apretar correctamente el cable con el terminal / Adecuar el tamaño de la conexión del cable a los terminales de la caja de bornes |",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output4\\tables\\user_manual_p33_table_1.csv",
+            "bbox": [
+                37.10036923076923,
+                103.03989999999996,
+                374.4232769230769,
+                545.8590999999999
+            ],
+            "content": "| 1 | 2 | 3 | 4 | 5 | 6 | CAUSAS | SOLUCIONES |\n|---|---|---|---|---|---|---|---|\n| X | X |  |  |  |  | Entrada de aire por la tubería de aspiración | Comprobar el estado de racores y juntas del tubo de aspiración |\n| X |  |  |  |  |  | Mala estanqueidad de tapa del filtro | Limpiar la tapa filtro y comprobar estado de la junta goma |\n| X | X |  |  |  |  | Giro del motor invertido | Invertir 2 fases de la alimentación |\n| X | X |  | X |  |  | Voltaje erróneo | Comprobar el voltaje de la placa característica y el de la red |\n|  | X |  |  |  |  | Prefiltro obturado | Limpiar el filtro |\n|  | X |  |  |  |  | Pérdidas de carga en la instalación | Evitar al máximo que los elementos produzcan pérdidas de carga |\n|  |  | X |  |  |  | Fijación incorrecta de la bomba | Fijar correctamente la bomba |\n|  |  |  |  | X |  | Motor bloqueado | Desmontar el motor y acudir al servicio técnico |\n|  |  |  |  |  | X | Aumento de la temperatura en la caja de bornes por efecto de arco voltaico | Comprobar las conexiones de la caja de bornes |\n|  |  |  |  |  | X | Salta el protector térmico | Realizar correctamente la conexión de los cables con los terminales de las cajas de bornes |\n|  |  |  |  |  | X | Conexiones caja bornes mal efectuadas | Apretar correctamente el cable con el terminal / Adecuar el tamaño de la conexión del cable a los terminales de la caja de bornes |"
+        }
+    ],
+    "figures": []
+}

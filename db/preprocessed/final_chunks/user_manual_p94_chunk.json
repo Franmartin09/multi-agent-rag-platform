@@ -1,0 +1,110 @@
+{
+    "document": "user_manual.pdf",
+    "page": 94,
+    "free_text": "94 95\n\n### Tabla (table_1)\n| Fig. 3 |\n|---|\n| Fig. 3 |\n\n### Tabla (table_2)\n| Fig. 4 |\n|---|\n| Fig. 4 |",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output4\\tables\\user_manual_p94_table_1.csv",
+            "bbox": [
+                199.843,
+                273.89799999999997,
+                229.607,
+                285.23699999999997
+            ],
+            "content": "| Fig. 3 |\n|---|\n| Fig. 3 |"
+        },
+        {
+            "table_id": "table_2",
+            "csv_file": "output4\\tables\\user_manual_p94_table_2.csv",
+            "bbox": [
+                199.843,
+                547.087,
+                229.607,
+                558.4259999999999
+            ],
+            "content": "| Fig. 4 |\n|---|\n| Fig. 4 |"
+        }
+    ],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output4\\rendered_figures\\user_manual_p94_figure_block_1.png",
+            "internal_text": "Pump / Pompe / Bomba/ Pompa / Pumpe / Bomba / Βόμβα / Насос / ةلبنق Fig. 4 m 2 .xaM",
+            "gemini_description": {
+                "purpose": "To illustrate the piping layout, water circulation flow path, and installation height constraints of a standard swimming pool filtration system.",
+                "summary": "This diagram teaches the complete closed-loop filtration cycle of a swimming pool. Water is sucked from the bottom and skimmer outlets of the pool by a self-priming pump, pushed through a multi-port valve into a sand filter tank, and then returned as clean water back to the pool. It highlights a critical installation constraint regarding the maximum suction height of the pump above the pool's water surface.",
+                "components": [
+                    {
+                        "name": "Pump",
+                        "description": "Labeled in multiple languages (Pump / Pompe / Bomba / Pompa / Pumpe / Bomba / Βόμβα / Насос / قنبلة). It acts as the prime mover that creates suction to draw dirty pool water and pushes it under pressure through the filtration system."
+                    },
+                    {
+                        "name": "Pool",
+                        "description": "The water reservoir containing a main bottom drain, a side skimmer/overflow outlet, and return inlets on the opposite side to maintain circulation."
+                    },
+                    {
+                        "name": "Multi-port Valve",
+                        "description": "A selector valve mounted alongside the filter to control the flow direction of water for operations like filtration, backwash, or waste."
+                    },
+                    {
+                        "name": "Filter Tank",
+                        "description": "A media-filled vessel (typically sand or glass) equipped with an upper diffuser dome and bottom lateral collectors to capture suspended solids from the water."
+                    },
+                    {
+                        "name": "Piping and Connectors",
+                        "description": "A system of pipes with integrated flow-direction arrows that connect the pool, pump, valve, filter, and drain pit."
+                    }
+                ],
+                "procedure": [
+                    "Suction: The pump draws water simultaneously from the pool's bottom main drain and the surface skimmer line.",
+                    "Delivery to Valve: The pressurized water exits the pump discharge port and enters the inlet of the multi-port valve.",
+                    "Filtration: The valve directs water to the top of the filter tank where it is dispersed over the sand bed by a diffuser.",
+                    "Collection: Water flows downward through the sand bed (filtering out debris) and is collected by the lateral assembly at the bottom of the tank.",
+                    "Return: Filtered water is pushed up the central pipe, exits the filter tank back into the multi-port valve, and is directed through the return line back into the pool inlets."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "The diagram shows a suction-lift configuration where the pump is installed above the pool's water level."
+                    },
+                    {
+                        "detail": "Flow direction is clearly marked on all pipe segments by small black arrows, defining the loop during normal filtration mode."
+                    },
+                    {
+                        "detail": "An auxiliary waste line connects the multi-port valve to an open-discharge drain pit located below the equipment level."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "The maximum allowable vertical distance between the pool's water level and the pump intake centerline is 2 meters ('Max. 2 m') to prevent priming issues or excessive suction head loss."
+                    }
+                ]
+            },
+            "bbox": [
+                45.604,
+                301.78499999999997,
+                383.844,
+                552.506
+            ]
+        },
+        {
+            "figure_id": "figure_block_2",
+            "png_file": "output4\\rendered_figures\\user_manual_p94_figure_block_2.png",
+            "internal_text": "Cebado Priming Remplissage Einfüllstopfen Scarico Carga Φορτίο агрузка Fig. 3",
+            "gemini_description": {
+                "purpose": "",
+                "summary": "",
+                "components": [],
+                "procedure": [],
+                "technical_details": [],
+                "warnings": []
+            },
+            "bbox": [
+                45.604,
+                28.59699999999998,
+                383.844,
+                279.31699999999995
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "document": "user_manual.pdf",
+    "page": 85,
+    "free_text": "حباسلما تاخضم - ةماعلا ةنايصلاو بيكترلا ليلد 85\nاللغة\nالعربية",
+    "tables": [],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output4\\rendered_figures\\user_manual_p85_figure_block_1.png",
+            "internal_text": "اللغة العربية ةماهلا ةنايصلاو بيكترلاو ناملأا تامولعم ءدبو بيكترلا ءانثأ اهقيبطت بجاولا ةملاسلا يربادت نأشب ةيساسلأا تامولعلما لىع ليلدلا اذه لمتشي ءدبو بيكترلا لبق تاداشرلإا هذه مدختسلماو بيكترلاب مئاقلا ينفلا أرقي نأ بجي ،كلذلو .ليغشتلا .ليغشتلا PDF :نيوتركللإا انعقوم نم قيسنتب دنتسم لكش في ليلدلا اذه ليزنت نكيم هنأ لىإ ةراشلإا ردجتو www.astralpool.com • ليولأا )ةترلفلا( حيشترلا لجأ نم اصً يصخ ةممصم ليلدلا اذه في اهفصو دري يتلا تادحولا .)ةحابسلا تامماح( حباسلما في هايلما ريودت ةداعإو 35 • .ةيوئم ةجرد زواجتت لا ةرارح تاجرد في ةفيظن هايم عم لمعلل ةممصم تادحولا هذه • اوأرق دق اونوكي نودمتعم نولهؤم دارفأ ةنايصلاو عيمجتلا لماعأ ةفاكب موقي نأ بجي .ةقيقد ةءارق ةمدخلاو بيكترلا تاداشرإ تاردقلا يوذ )لافطلأا كلذ في ابم( صاخشلأا لبقِ نم مادختسلال صصخم يرغ زاهجلا اذه• متي لم ام ،ةفرعلماو ةبرخلا ةلقب نومستي نم وأ ،ةدودحلما ةيلقعلا وأ ةيروعشلا وأ ةيدسجلا نماضل لافطلأا ةبقارم بجي .مهتملاس نع ينلوؤسلما صاخشلأا داشرإب وأ فاشرإ تحت كلذ .زاهجلاب مهبعل مدع قوف امو تاونس 8 ينب مهرماعأ حواترت نيذلا لافطلأا لبقِ نم زاهجلا اذه مادختسا نكيم• نومستي وأ ةيلقعلا وأ ةيسحلا وأ ةيدسجلا تاردقلا فعض نم نوناعي نيذلا صاخشلأاو ةقيرطب زاهجلا مادختساب ةقلعتلما تاداشرلإا وأ فاشرلإا مهحنم مت اذإ ةفرعلماو ةبرخلا صقنب لافطلأل يغبني لا .زاهجلاب بعللا لافطلأل يغبني لا .اهيلع يوطني يتلا رطاخلما مهفو ةنمآ .فاشرإ نود مدختسلما اهب موقي يتلا ةنايصلاو فيظنتلا لماعأب مايقلا :ر ايعلما عم قفاوتت )ةحابس تامماح( حباسم في انتاخضم بيكرتو عيمجت طقف نكيم• IEC / HD 60364-7-702 .عزولما ةراشتسا ىجرُي ،كشلا ةلاح فيو .ةقبطنلما ةينطولا دعاوقلاو لىع ةقبطنلما ةينطولا دعاوقلاو IEC/HD 60364-7-702 :رايعلما بيكترلا عبتي نأ يغبني • .حباسلما 1 0 • عجار تاموسرلا ةيؤرل .) ( دحاو ةقطنلما وأ ) ( رفص ةقطنلما في ةخضلما بيكرت عونمم .97 ةحفصلا اوأرق دق اونوكي نودمتعم نولهؤم دارفأ ةنايصلاو عيمجتلا لماعأ ةفاكب موقي نأ بج• .ةقيقد ةءارق ةمدخلاو بيكترلا تاداشرإ • .ءام هب ضيفي نأ لمتحي يذلا ناكلما في بسانم ذفنم وذ ضوح عضو بجي",
+            "gemini_description": {
+                "purpose": "Provide critical safety, installation, and maintenance instructions for AstralPool water filtration and recirculation pumps.",
+                "summary": "This document outlines the vital safety guidelines, environmental limitations, and regulatory standards required for the safe installation, startup, and maintenance of swimming pool pumps.",
+                "components": [
+                    {
+                        "name": "AstralPool Filtration/Recirculation Pump",
+                        "description": "A unit designed specifically for primary water filtration and recirculation in swimming pools."
+                    }
+                ],
+                "procedure": [
+                    "Download and read the full instruction manual in PDF format from www.astralpool.com before starting installation and operation.",
+                    "Verify that the pool water is clean and does not exceed a maximum temperature of 35 degrees Celsius.",
+                    "Assign all assembly, installation, and maintenance tasks exclusively to qualified and authorized personnel.",
+                    "Ensure electrical installation strictly complies with standard IEC/HD 60364-7-702 and relevant national pool safety regulations.",
+                    "Do not install the pump in Zone 0 or Zone 1 areas (refer to page 97 of the manual for zone diagrams).",
+                    "Install a suitable containment basin with an adequate drain in areas where water overflow is expected."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "Applicable safety and electrical installation standard: IEC/HD 60364-7-702."
+                    },
+                    {
+                        "detail": "Maximum allowable operating water temperature: 35°C."
+                    },
+                    {
+                        "detail": "Prohibited installation areas: Zone 0 and Zone 1."
+                    },
+                    {
+                        "detail": "Source URL for PDF documentation: www.astralpool.com"
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "It is strictly forbidden to install the pump inside Zone 0 or Zone 1."
+                    },
+                    {
+                        "warning": "This appliance is not intended for use by persons (including children) with reduced physical, sensory, or mental capabilities, or lack of experience, unless under supervision."
+                    },
+                    {
+                        "warning": "Children aged 8 and above must be supervised or instructed on safe use; they must not play with the device or perform cleaning and maintenance without supervision."
+                    },
+                    {
+                        "warning": "A suitable basin with drainage must be placed where water leakage or overflow is likely to occur."
+                    }
+                ]
+            },
+            "bbox": [
+                45.354,
+                28.34699999999998,
+                392.598,
+                558.4259999999999
+            ]
+        }
+    ]
+}

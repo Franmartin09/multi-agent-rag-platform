@@ -1,0 +1,70 @@
+{
+    "document": "user_manual.pdf",
+    "page": 86,
+    "free_text": "اللغة\nالعربية\nاللغة\nالعربية\nةروسام لىع طغضلا قراف زواجت مدع يغبنيف ءالما ىوتسم وقف يرضحتلا ةيتاذ ةخضم بيكرت مت اذإ•\n)mHO 2( 2 0.02\nةيرصق طفشلا ةروسام نوكت نأ بجيو . 2 ءام م لاكساب اجيم ةخضلماب طفشلا\n.ماظنلا لمح دقاوفو طفشلا نمز ديزت فوس ةليوطلا ةرواسلما نلأ نكمم ردق بركأب\n)ةخضلما ةحول لىع تانايبلا رظنا ،ًلاضف( )ددترم( بوانتم رايت ةيذغت ردصم لىإ ةخضلما ليصوت بجي•\n30\n.يربمأ ليلم زواجتي لا ليغشتلل قبتم رايتب لمعي قٍ بتم رايت زاهجب اهتيماحو ،ضيرأ ةليصوت عم",
+    "tables": [],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output4\\rendered_figures\\user_manual_p86_figure_block_1.png",
+            "internal_text": "86 ةماعلا ةملاسلا تاداشرإ .1 عبتُت لم ام رطخ دوجو ةيناكمإ لىإ ) ( زومرلا هذه يرشت .ئيابرهكلا قعصلل ضرعتلا رطخ .رطخ . ئيابرهكلا قعصلل ضرعتلا رطخ لىإ تاداشرلإا هذهب مازتللاا مدع يدؤي دق .رطخ . راضرلأل تاكلتملماو ةباصلإل دارفلأا ضرعت رطخ لىإ تاداشرلإا هذهب مازتللاا مدع يدؤي دق .ريذحت .راضرلأ بيكترلا وأ ةخضلما ضرعت رطخ لىإ تاداشرلإا هذهب مازتللاا مدع يدؤي دق ةماعلا ةملاسلا تمايظنت .2 ماع .بيكرت لكل ةددحلما تاداشرلإل اقً بط بيكترلا بجي- .ةعنصلما ةكشرلا نم ةقبسم ةقفاوم لىع لوصحلا ةخضلما لىع تلايدعتلا ةفاك بلطتت- بركأ ةجرد ةعنصلما ةكشرلا نم ةدمتعلما )تاراوسسكلإا( تاقحللماو رايغلا عطق نمضتو عطق هيف ببستت رضر يأب قلعتي مايف ةيلوؤسم يأ ةعنصلما ةكشرلا لمحتت لاو .ناملأا نم .ةدمتعلما يرغ تاقحللما وأ رايغلا ةيذغتلا نع ةخضلما لصف بجي ،اهب ةلصتلما ىرخلأا ةزهجلأا وأ ةخضم لكب لمعلا دنع- .ليغشتلا ءانثأ ةيح نوكت ةخضملل ةيئابرهكلا ءازجلأاف ،ليغشتلا ةزهجأو ةيئابرهكلا اوأرق دق اونوكي نودمتعم نولهؤم دارفأ ةنايصلاو عيمجتلا لماعأ ةفاكب موقي نأ بجي- .ةقيقد ةءارق ةمدخلاو بيكترلا تاداشرإ .ةمدخلاو بيكترلا تاداشرإب مازتللاا بجي ،ةخضلما ليغشت دنع ةملاسلا نماضل- .عزوم برقأ وأ درّولماب لاصتلاا بجي ،لاطعلأا وأ بيعلما ليغشتلا ةلاح في-",
+            "gemini_description": {
+                "purpose": "Define general safety instructions, warning symbols, and regulatory compliance standards for installing, operating, and maintaining a pump system.",
+                "summary": "This document details the critical safety indicators and operational regulations required to safely assemble, maintain, and operate pump systems. It highlights specific danger levels (such as electric shock, personal or property damage, and equipment damage) and establishes mandatory procedures like isolating electrical power before servicing and using only manufacturer-approved spare parts.",
+                "components": [
+                    {
+                        "name": "Electric Shock Danger Symbol (lightning bolt)",
+                        "description": "Indicates a severe hazard that could result in electric shock if safety instructions are ignored."
+                    },
+                    {
+                        "name": "General Danger Symbol (exclamation mark in triangle)",
+                        "description": "Indicates hazards that could cause personal injury or property damage if instructions are not followed."
+                    },
+                    {
+                        "name": "Equipment Warning Symbol (exclamation mark in square)",
+                        "description": "Indicates hazards that may result in physical damage to the pump or the installation setup."
+                    },
+                    {
+                        "name": "Service/Plug Indicator Symbol",
+                        "description": "Identifies requirements for following the operational, installation, and service manual guidelines before power connection."
+                    }
+                ],
+                "procedure": [
+                    "Read and thoroughly understand all installation and service instructions before starting assembly or maintenance.",
+                    "Ensure all assembly, maintenance, and operation tasks are performed exclusively by authorized and qualified personnel.",
+                    "Disconnect the pump and any connected auxiliary devices from the electrical power supply prior to executing any maintenance or physical handling.",
+                    "Verify that all installed spare parts and accessories are approved by the original manufacturer to maintain system safety.",
+                    "In the event of a malfunction, faulty operation, or breakdown, immediately contact the supplier or the nearest authorized distributor."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "Electrical component hazard: Electrical parts of the pump are live during normal operation, requiring complete electrical isolation before any work is carried out."
+                    },
+                    {
+                        "detail": "Modification constraint: Any alteration to the pump requires prior written approval from the manufacturer to maintain safety levels and product warranty."
+                    },
+                    {
+                        "detail": "Spare parts policy: The manufacturer assumes no responsibility or liability for damages resulting from the use of unauthorized spare parts or accessories."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "Failure to comply with instructions associated with the electric shock symbol leads to direct risk of fatal electrical accidents."
+                    },
+                    {
+                        "warning": "Failure to follow guidelines marked by the general danger symbol can lead to personal injury or property damage."
+                    },
+                    {
+                        "warning": "Neglecting instructions marked by the exclamation warning symbol poses a significant risk of damaging the pump or the entire installation."
+                    }
+                ]
+            },
+            "bbox": [
+                36.85,
+                174.33099999999996,
+                375.59000000000003,
+                577.559
+            ]
+        }
+    ]
+}
