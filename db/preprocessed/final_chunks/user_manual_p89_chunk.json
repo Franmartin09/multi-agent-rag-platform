@@ -1,0 +1,106 @@
+{
+    "document": "user_manual.pdf",
+    "page": 89,
+    "free_text": "حباسلما تاخضم - ةماعلا ةنايصلاو بيكترلا ليلد 89\nاللغة\nالعربية\n\n### Tabla (table_1)\n| X | X |\n|---|---|",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output4\\tables\\user_manual_p89_table_1.csv",
+            "bbox": [
+                45.354,
+                140.09559999999993,
+                352.914,
+                157.04499999999996
+            ],
+            "content": "| X | X |\n|---|---|"
+        }
+    ],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output4\\rendered_figures\\user_manual_p89_figure_block_1.png",
+            "internal_text": "اللغة العربية عفتري ىتح ةخضملل ليولأا )ترلفلا( حشرلما يرضحت بجي ،ةخضملل حيحصلا ليغشتلا نماضل - .)3 لكشلا( طفشلا ةروسام للاخ ءالما عقولما .اهئادأ ينسحتل )ةحابسلا مماح( حبسلما في ءالما ىوتسم تحت ةخضلما بيكرت بجي - .ةفاج ةيوهت ىقلتت اهنأو ةلمتحلما تاناضيفلا نم ةخضلما ةيماح نماض بجي - ةيئابرهكلا تابيكترلا ينب ملم 3 نع لقت لا ةحاسم عم ددعتم لصف زاهج مادختسا ةيرهوجلا ةروضرلا نم نإ- .ئيابرهكلا رايتلا نع ةخضلما لصفل حطسلأا بجيف نرم لباك مدختسُا نإف .ةيسيئرلا ءابرهكلاب ةخضلما ليصوتل يوق لباك مادختسا يغبني- .ةخضلما )روتوم( كرحم فارطأب هليصوتل تاورعب ادً وزم نوكي نأ .ةخضلما ةدش عم قفاوتي ابم ضيرلأا لاطعأ ةرئاد عطاق ةميق ليدعت / طبض بجي- .بولطلما )زويفلا( رهصنلما عون نم دكأتلا بجي ،)روتولما( كرحلما ليصوت لبق- .ةخضلماب ضيرلأا لباك ليصوتو بيتترلا ةعجارم بجي- مازتللاا مدع يدؤي نأ نكيمو .ةيئابرهكلا تلايصوتلاو تابيكترلاب ةينعلما تاداشرلإاب مازتللاا بجي- .نماضلا لاطبإو ءاغلإو ةيلوؤسم يأ لمحت ةخضملل ةعنصلما ةكشرلا ضفر لىإ تاداشرلإا هذهب .ةصاخ ةيميظنت حئاولل بيكترلا عضخي نأ نكيم- .ئيابرهكلا قعصلل ضرعتلا رطخ لىع ةيسيئرلا ءابرهكلاب ةحيحصلا يرغ تلايصوتلا يوطنت- :روطلا يداحأ كرحبم ةزهجلما تاخضلما .ةيرارح ةيماح لىع لمتشت• .ةيسيطانغم ةيماح ةزيهجتب )روتوم( كرحم يقاو مادختسا بجي• .ةيماح ةزيهجتب لعفلاب دوزم كرحلماف ،يرارحلا لحرلما طبض تانايبب داشترسلاا يغبني• عطقم عم H07 RN-F3 عون نم ليصوت ةبلج مادختسا بجي ،تلوف 032 ةيتلوفلا تناك اذإ• .لباكلا لوطو كرحلما ةردق عم قفاوتي لباك :روطلا ثيلاث كرحبم ةزهجلما تاخضلما .ةيسيطانغم ةيماح ةزيهجتب )روتوم( كرحم يقاو مادختسا بجي• .كرحملل عطاق حاتفبم ةدئازلا لماحلأا نم ةخضلما ةيماح بجي• ةليصوتلل ةبسنلاب .ةيرارحلا ةيماحلا لودجل اقً بط ةيرارحلا ةميقلا طبض يغبني• ةبسنلاب .اهيلإ راشم ةميق لىعأب ةيماح ةزيهجت مادختسا بجي ،)تلوف 032 × 3 ةكبش( Δ .اهيلإ راشم ةميق لقأب ةيماح ةزيهجت مادختسا بجي ،)تلوف 004 × 3 ةكبش( Υ ةليصوتلل",
+            "gemini_description": {
+                "purpose": "Guidelines for the installation, positioning, and electrical wiring of swimming pool pumps.",
+                "summary": "This document outlines safety warnings, placement requirements, and technical specifications for installing and wiring both single-phase and three-phase swimming pool pumps, ensuring correct operation, safety from electrical shocks, and protection against motor damage.",
+                "components": [
+                    {
+                        "name": "Pre-filter (المرشح الأولي للمضخة)",
+                        "description": "Component that must be primed to draw water up through the suction pipe for proper pump operation."
+                    },
+                    {
+                        "name": "Suction Pipe (ماسورة الشفط)",
+                        "description": "Pipe through which water is drawn into the pump."
+                    },
+                    {
+                        "name": "Omnipolar Disconnect Device (جهاز فصل متعدد)",
+                        "description": "A switch used to completely isolate the pump from the mains electrical supply, requiring at least a 3 mm contact separation."
+                    },
+                    {
+                        "name": "Power Cable (كابل الطاقة)",
+                        "description": "A heavy-duty main power cable, which must be equipped with terminal lugs/eyelets if a flexible type is used."
+                    },
+                    {
+                        "name": "Ground Fault Circuit Interrupter / GFCI (قاطع دائرة أعطال الأرضي)",
+                        "description": "A safety device that must be adjusted according to the pump's current intensity."
+                    },
+                    {
+                        "name": "Ground Cable (كابل الأرضي)",
+                        "description": "Safety grounding connection for the pump housing."
+                    },
+                    {
+                        "name": "Single-Phase Motor (محرك أحادي الطور)",
+                        "description": "Type of pump motor equipped with internal thermal protection, requiring a magnetic motor protector."
+                    },
+                    {
+                        "name": "Three-Phase Motor (محرك ثلاثي الطور)",
+                        "description": "Type of pump motor requiring magnetic protection, overload circuit breakers, and specific thermal settings based on connection configurations (Delta or Star)."
+                    }
+                ],
+                "procedure": [
+                    "Prime the pump's pre-filter (filter) so water rises through the suction pipe to guarantee proper starting operation.",
+                    "Mount the pump below the swimming pool's water level to ensure optimal hydraulic performance.",
+                    "Place the pump in a dry, well-ventilated area protected against potential flooding.",
+                    "Install an omnipolar disconnect device with a contact separation of at least 3 mm between contacts to isolate the power supply.",
+                    "Connect the main power supply using a heavy-duty cable (use terminal lugs if the cable is flexible).",
+                    "Set the ground fault circuit interrupter value in proportion to the pump's rated current.",
+                    "Check and select the correct fuse type before wiring the motor.",
+                    "Connect the safety ground cable securely to the pump.",
+                    "For single-phase motors: configure the magnetic motor protector and adjust settings based on the integrated thermal relay data. Use H07 RN-F3 cable type for 230V installations.",
+                    "For three-phase motors: protect against overload using a motor circuit breaker, and adjust thermal settings according to Delta (Δ) or Star (Y) configurations."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "Omnipolar disconnect device contact separation must be at least 3 mm."
+                    },
+                    {
+                        "detail": "For single-phase motor installations at 230V, a cable of type H07 RN-F3 must be used, with a cross-section matching the motor capacity and cable length."
+                    },
+                    {
+                        "detail": "For three-phase Delta (Δ) connection (3 x 230 V network), the thermal protection device must be set to the highest indicated value."
+                    },
+                    {
+                        "detail": "For three-phase Star (Y) connection (3 x 400 V network), the thermal protection device must be set to the lowest indicated value."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "Failure to comply with the electrical connection and installation instructions voids the manufacturer warranty and liability."
+                    },
+                    {
+                        "warning": "Incorrect connections to the main electrical power present a severe risk of electric shock."
+                    },
+                    {
+                        "warning": "Ensure the pump is fully protected against potential flooding and is located in a dry, ventilated space."
+                    }
+                ]
+            },
+            "bbox": [
+                45.354,
+                28.34699999999998,
+                384.094,
+                552.756
+            ]
+        }
+    ]
+}

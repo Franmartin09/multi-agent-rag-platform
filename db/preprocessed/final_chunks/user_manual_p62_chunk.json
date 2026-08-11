@@ -1,0 +1,19 @@
+{
+    "document": "user_manual.pdf",
+    "page": 62,
+    "free_text": "62 Manual de instalação e manutenção geral - BOMBAS PARA PISCINAS\nSÊUGUTROP - Esvaziar a bomba sempre que for necessário deixar o equipamento algum tempo sem funcionar,\nprincipalmente em países frios onde possa existir o perigo de congelação.\n- Para esvaziar a bomba, extrair o tampão de purga.\n- Sempre que o pré-filtro for aberto, limpar as impurezas do alojamento da junta e da própria\njunta para garantir a estanquidade no fecho da tampa (Fig. 5).\n- Os componentes da bomba que, devido à sua utilização habitual, sofram desgaste e/ou\ndeterioração devem ser substituídos periodicamente para manter o bom rendimento da bomba.\nA tabela a seguir lista os componentes fungíveis e/ou consumíveis da bomba e o período de\ntempo após o qual devem ser substituídos.\n(1) A abertura e o fecho da bomba para a substituição de qualquer uma das peças sobresselentes internas\nnão garante a estanquidade posterior. Por esse motivo, recomenda-se substituir as juntas tóricas e os\nelementos de estanquidade sempre que a junta mecânica e/ou os rolamentos forem substituídos.\nO período de vida útil estimado das peças anteriores foi estabelecido tendo em conta condições normais de\nutilização e instalação do produto.\nSeguir as instruções do manual de instalação para manter o período de vida útil da bomba.\n6. DESMONTAGEM\n-O conjunto do motor pode ser desmontado do corpo da bomba, sem necessidade de desligar as\ntubagens de aspiração e impulsão da bomba.\n-Para desmontar o Conjunto do motor do corpo da bomba, retirar os parafusos que os unem.\n\n### Tabla (table_1)\n| DESCRIÇÃO DO COMPONENTE | INTERVALO DE TEMPO ENTRE SUBSTITUIÇÓES |\n|---|---|\n| Capacitor | 1 ano |\n| Rolamentos | 1 ano |\n| Fecho mecânico | 1 ano |\n| Juntas e outros elementos de estanquidade (1) | 1 ano |",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output4\\tables\\user_manual_p62_table_1.csv",
+            "bbox": [
+                45.87949,
+                167.99889999999996,
+                382.92716666666666,
+                257.08539999999994
+            ],
+            "content": "| DESCRIÇÃO DO COMPONENTE | INTERVALO DE TEMPO ENTRE SUBSTITUIÇÓES |\n|---|---|\n| Capacitor | 1 ano |\n| Rolamentos | 1 ano |\n| Fecho mecânico | 1 ano |\n| Juntas e outros elementos de estanquidade (1) | 1 ano |"
+        }
+    ],
+    "figures": []
+}

@@ -1,0 +1,87 @@
+{
+    "document": "user_manual.pdf",
+    "page": 96,
+    "free_text": "96 MT",
+    "tables": [],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output4\\rendered_figures\\user_manual_p96_figure_block_1.png",
+            "internal_text": "SINGLE PHASE MOTORS / MOTEURS MONOPHASES MOTORES MONOFÁSICOS / MOTORI MONOFASE Capacitor EINPHASIGE MOTOREN / MOTORES MONOFASICOS / Condensateur ΛΕΠΤΟΜΕΡΕΙΑ ΑΓΚΙΣΤΡΟΥ / Condensador Condensatore ОДНОФАЗНЫЕ ДВИГАТЕЛИ Kondensator Condensador Συμπυκνωτής Конденсатор E PHASE MOTORS / MOTEURS TRIPHASES MOTORES TRIFÁSICOS / MOTORI TRIFASE DREINPHASE MOTOREN / MOTORES TRIFASICOS / ΤΡΙΦΑΣΙΚΟΙ ΚΙΝΗΤΗΡΕΣ / ТРЕХФАЗНЫЕ ДВИГАТЕЛИ SINGLE PHASE / MONOPHASES THREE PHASE / TRIPHASES MONOFÁSICOS / MONOFASE TRIFÁSICOS / TRIFASE EINPHASIG / MONOFASICOS / DREINPHASIG / TRIFASICOS / ΛΕΠΤΟΜΕΡΕΙΑ ΑΓΚΙΣΤΡΟΥ / ΤΡΙΦΑΣΙΚΟΙ ΚΙΝΗΤΗΡΕΣ/ ОДНОФАЗНЫЕ / ТРЕХФАЗНЫЕ /",
+            "gemini_description": {
+                "purpose": "To illustrate the electrical terminal wiring configurations and schematic diagrams for connecting single-phase and three-phase motors.",
+                "summary": "This diagram provides the standard terminal block wiring layouts and electrical schematics for single-phase and three-phase AC motors. It includes single-phase wiring with an external capacitor, and three-phase wiring supporting both Delta (triangle symbol) and Star (Y symbol) terminal configurations, alongside their respective power line and protective grounding schemes.",
+                "components": [
+                    {
+                        "name": "Single Phase Terminal Block",
+                        "description": "Terminal block showing connection points for Line (L) and Neutral (N) along with an external capacitor connection."
+                    },
+                    {
+                        "name": "Capacitor",
+                        "description": "An electrical component used in the single-phase motor circuit to provide the phase shift necessary to start and run the motor."
+                    },
+                    {
+                        "name": "Delta Terminal Block Configuration",
+                        "description": "Terminal block setup using three vertical metal jumper links to connect the motor windings in a Delta configuration, connected to lines L1, L2, and L3."
+                    },
+                    {
+                        "name": "Star (Wye) Terminal Block Configuration",
+                        "description": "Terminal block setup using horizontal metal jumper links across the top three terminals to connect the motor windings in a Star (Y) configuration, connected to lines L1, L2, and L3."
+                    },
+                    {
+                        "name": "Grounding Connection",
+                        "description": "Protective earth ground symbols indicated near the terminal blocks and motor chassis for safety."
+                    },
+                    {
+                        "name": "Single Phase Motor (M)",
+                        "description": "Single-phase AC motor schematic including an internal thermal protector (H) and capacitor (C)."
+                    },
+                    {
+                        "name": "Three Phase Motor (M3)",
+                        "description": "Standard three-phase AC induction motor schematic."
+                    },
+                    {
+                        "name": "Contactor/Switch (S)",
+                        "description": "Inline switch or contactor contacts used to control the single-phase motor circuit."
+                    },
+                    {
+                        "name": "Motor Protective Circuit Breaker",
+                        "description": "Includes disconnect contacts, thermal overload, and magnetic short-circuit trip mechanisms for protecting the three-phase motor."
+                    }
+                ],
+                "procedure": [
+                    "To wire a single-phase terminal block, connect Line (L) and Neutral (N) to the designated terminals, and bridge the capacitor across the specified terminals as shown in the top diagram.",
+                    "To wire a three-phase motor in Delta (Δ) configuration, install three parallel vertical metal jumpers across the terminal studs, and connect incoming power lines L1, L2, and L3 to the bottom terminals.",
+                    "To wire a three-phase motor in Star (Y) configuration, install horizontal metal jumpers across the top row of terminal studs to form a star point, and connect power lines L1, L2, and L3 to the bottom row of terminals.",
+                    "For the single-phase system schematic, route Line (L1) and Neutral (N) through the switch contacts (S) to power the single-phase motor (M) containing thermal protector (H) and capacitor (C). Connect the motor chassis to ground.",
+                    "For the three-phase system schematic, route phases R, S, and T through the protective circuit breaker and overloads to the three-phase motor (M3). Connect the motor chassis to ground."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "Supported three-phase layouts include Delta (represented by the triangle symbol) and Star (represented by the Y symbol)."
+                    },
+                    {
+                        "detail": "Incoming three-phase lines are designated as L1, L2, L3 in the connection blocks, and as R, S, T in the schematic."
+                    },
+                    {
+                        "detail": "Terminology is provided in multiple languages: English, French, Spanish, Italian, German, Greek, Russian, and Arabic."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "Ensure correct positioning of jumper links (vertical for Delta, horizontal for Star) according to the rated voltage on the motor nameplate before applying power."
+                    },
+                    {
+                        "warning": "Ensure all motor frames are securely connected to the protective earth ground as indicated by the ground symbols to prevent shock hazards."
+                    }
+                ]
+            },
+            "bbox": [
+                45.604,
+                28.59699999999998,
+                383.844,
+                552.506
+            ]
+        }
+    ]
+}

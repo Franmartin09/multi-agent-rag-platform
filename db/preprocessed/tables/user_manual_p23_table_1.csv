@@ -1,0 +1,27 @@
+﻿1,2,3,4,5,6,CAUSES,SOLUTIONS
+X,X,,,,,Entrée d’air par le tuyau d’aspiration,"Vérifier l’état des raccords et les
+joints du tuyau d’aspiration"
+X,,,,,,"Mauvaise étanchéité du couvercle du
+filtre","Nettoyer le couvercle filtre et vérifier
+l’état du joint caoutchouc"
+X,X,,,,,Rotation du moteur inversée,Inverser les 2 phases d’alimentation
+X,X,,X,,,Tension erronée,"Vérifier la tension de la plaque des
+caractéristiques et celle du réseau"
+,X,,,,,Préfiltre obstrué,Nettoyer le filtre
+,X,,,,,Pertes de charge dans l’instalation,"Eviter au maximum que les éléments
+produisent des pertes de charge"
+,,X,,,,Fixation incorrecte de la pompe,Fixer correctement la pompe
+,,,,X,,Moteur bloqué,"Démonter le moteur et consulter le
+service technique"
+,,,,,X,"Augmentation de la température dans
+la boîte de dérivation par effet d’arc
+de tension","Vérifier les connexions de la boîte de
+dérivation"
+,,,,,X,Le protecteur thermique s’active,"Réaliser correctement la connexion
+des câbles aux terminaux des boîtes de
+dérivation"
+,,,,,X,"Connexions de la boîte de dérivation
+mal effectuées","Serrer correctement le câble au
+terminal / Adapter la taille de la
+connexion du câble aux terminaux de
+la boîte de dérivation"

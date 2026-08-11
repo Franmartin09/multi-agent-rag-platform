@@ -1,0 +1,121 @@
+{
+    "document": "user_manual.pdf",
+    "page": 93,
+    "free_text": "MT 93\n\n### Tabla (table_1)\n| Fig. 1 |\n|---|\n| Fig. 1 |\n\n### Tabla (table_2)\n| Fig. 2 |\n|---|\n| Fig. 2 |",
+    "tables": [
+        {
+            "table_id": "table_1",
+            "csv_file": "output4\\tables\\user_manual_p93_table_1.csv",
+            "bbox": [
+                189.96487846153846,
+                273.89799999999997,
+                213.95194464285714,
+                285.23699999999997
+            ],
+            "content": "| Fig. 1 |\n|---|\n| Fig. 1 |"
+        },
+        {
+            "table_id": "table_2",
+            "csv_file": "output4\\tables\\user_manual_p93_table_2.csv",
+            "bbox": [
+                189.96487846153846,
+                547.024,
+                213.95194464285714,
+                558.363
+            ],
+            "content": "| Fig. 2 |\n|---|\n| Fig. 2 |"
+        }
+    ],
+    "figures": [
+        {
+            "figure_id": "figure_block_1",
+            "png_file": "output4\\rendered_figures\\user_manual_p93_figure_block_1.png",
+            "internal_text": "ANCHOR DETAIL / DETAIL DE L’ANCRAGE DETALLE ANCLAJE / DETTAGLIO ANCORAGGIO VERANKERUNG / DETALHE DE FIXAÇAO ΛΕΠΤΟΜΕΡΕΙΑ ΑΓΚΙΣΤΡΟΥ / ОПИСАНИЕ КРЕПЛЕНИЯ Anchor detail / Detail de l’ancrage Detalle anclaje / Dettaglio ancoraggio Verankerung / Detalhe de fixaçao / Λεπτομέρεια άγκιστρου / Описание крепления / Fig. 1",
+            "gemini_description": {
+                "purpose": "To illustrate the proper method for anchoring a water pump to a concrete foundation.",
+                "summary": "This diagram (Fig. 1) provides the technical details for securing a pump unit's mounting base to a solid concrete floor or slab. It features a side-profile view of the pump assembly and a detailed sectional close-up of a J-shaped/L-shaped anchor bolt embedded in concrete, securing the pump foot with a washer and nut.",
+                "components": [
+                    {
+                        "name": "Water Pump Assembly",
+                        "description": "The main pump unit, including the pump body, motor, suction inlet, and discharge outlet."
+                    },
+                    {
+                        "name": "Suction/Inlet Pipe",
+                        "description": "Horizontal pipe connection on the left side of the pump body."
+                    },
+                    {
+                        "name": "Discharge/Outlet Pipe",
+                        "description": "Vertical pipe connection on the top of the pump body."
+                    },
+                    {
+                        "name": "Anchor Bolt",
+                        "description": "An L-shaped or J-shaped threaded metal bolt embedded in the concrete foundation to resist pull-out forces."
+                    },
+                    {
+                        "name": "Concrete Foundation",
+                        "description": "The solid slab or floor base that supports the weight of the pump and absorbs operational vibrations."
+                    },
+                    {
+                        "name": "Nut and Washer",
+                        "description": "Fasteners used to clamp the pump's mounting foot down onto the concrete base via the threaded end of the anchor bolt."
+                    },
+                    {
+                        "name": "Pump Mounting Foot",
+                        "description": "The integral flange or foot at the base of the pump housing designed with an opening for the anchoring fastener."
+                    }
+                ],
+                "procedure": [
+                    "Locate the designated anchoring points on the mounting feet at the base of the pump.",
+                    "Prepare the concrete foundation with embedded L-shaped or J-shaped anchor bolts positioned to match the mounting foot hole centers.",
+                    "Place the pump assembly onto the concrete foundation, ensuring the threaded ends of the anchor bolts protrude through the holes in the mounting feet.",
+                    "Install a washer over each protruding threaded bolt.",
+                    "Thread and tighten the hex nut onto the bolt to secure the pump firmly to the foundation, preventing movement and minimizing vibration during operation."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "The anchor detail uses a hook-type anchor bolt (J-bolt or L-bolt) embedded directly into the concrete base to maximize pull-out resistance."
+                    },
+                    {
+                        "detail": "A washer is placed beneath the nut to distribute the clamping force evenly across the plastic or metal mounting flange of the pump."
+                    },
+                    {
+                        "detail": "The diagram includes multilingual labels for 'Anchor Detail' in English, French, Spanish, Italian, German, Portuguese, Greek, Russian, and Arabic."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "The concrete base must be fully cured and solid before tightening the anchor bolts to prevent cracking or anchor failure."
+                    },
+                    {
+                        "warning": "Do not overtighten the nut, as excessive torque may crack or damage the pump's integrated mounting foot."
+                    }
+                ]
+            },
+            "bbox": [
+                37.1,
+                28.597999999999956,
+                375.34000000000003,
+                279.00499999999994
+            ]
+        },
+        {
+            "figure_id": "figure_block_2",
+            "png_file": "output4\\rendered_figures\\user_manual_p93_figure_block_2.png",
+            "internal_text": "CORRECT / CORRECT / CORRECTO / CORRETTO INCORRECT / INCORRECT / INCORRECTO RICHTIG / CORRECTO / ΣΩΣΤΌ / ВЕРНО / NON CORRETTO / FALSCH / INCORRECTO / ΛΑΝΘΑΣΜΈΝΟ / НЕВЕРНО / Union / Raccord /Raccord Raccordo Union / Raccord Gasket / Joint /Raccord Raccordo Gasket / Joint Verschraubung / Junta Guarnizione Verschraubung / Junta Guarnizione Racord / Φλάντζα Dichtung / Junta/ Racord / Φλάντζα Dichtung / Junta/ ρακόρ / Соединение Σύνδεσμος / ρακόρ / Соединение Σύνδεσμος / Уплотнение / Уплотнение / Raccord Raccord Raccord Raccordo Raccord Verschraubung Raccordo Racord Verschraubung Φλάντζα ρακόρ Racord Соединение Φλάντζα ρακόρ Соединение Fig. 2",
+            "gemini_description": {
+                "purpose": "",
+                "summary": "",
+                "components": [],
+                "procedure": [],
+                "technical_details": [],
+                "warnings": []
+            },
+            "bbox": [
+                37.1,
+                301.84899999999993,
+                375.34000000000003,
+                552.506
+            ]
+        }
+    ]
+}
