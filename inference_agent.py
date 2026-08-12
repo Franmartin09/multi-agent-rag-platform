@@ -29,9 +29,9 @@ DB_PASSWORD = os.getenv("DB_PASSWORD", "postgres")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 EMBEDDING_MODEL = "gemini-embedding-001"
-LLM_MODEL = "gemini-3.5-flash"
+LLM_MODEL = "gemini-3.5-flash-lite"
 
-TOP_K = 8
+TOP_K = 3
 
 
 if not GOOGLE_API_KEY:
@@ -42,7 +42,7 @@ if not GOOGLE_API_KEY:
 # LLM CHECKPOINT / CACHE
 # =============================================================================
 
-CHECKPOINT_DIR = "checkpoints"
+CHECKPOINT_DIR = "checkpoint"
 os.makedirs(CHECKPOINT_DIR, exist_ok=True)
 
 USE_LLM_CACHE = True
@@ -437,7 +437,6 @@ Do not answer the user's question.
     name="guardrails_agent",
 )
 
-
 # =============================================================================
 # SQL / METADATA AGENT
 # =============================================================================
@@ -453,7 +452,13 @@ You are the SQL AND METADATA SPECIALIST
 of a FLUIDRA technical documentation system.
 
 Your responsibility is to retrieve structured information
-from the PostgreSQL database.
+from the PostgreSQL database using the `sql_query` tool.
+
+CRITICAL TOOL USAGE RULES:
+1. FULL PAGE RETRIEVAL: If the user or orchestrator asks to retrieve a specific page (e.g., "página 97"), you MUST leave the `chunk_type` parameter EMPTY (or None). Do not assume `chunk_type="text"`. You must retrieve the ENTIRE page, which includes all texts, tables, and figures.
+2. ONLY filter by `chunk_type` if the request explicitly asks for a single type (e.g., "Solo quiero las figuras de la página 97").
+3. Use the exact `document_name` and `page_number` provided in the request to call the tool.
+4. Do NOT output raw SQL queries like "SELECT text FROM...". You MUST execute the `sql_query` tool to get the data.
 
 Use sql_query when the question requires:
 
@@ -480,7 +485,6 @@ EVIDENCE
 
     name="sql_agent",
 )
-
 
 # =============================================================================
 # SEMANTIC RETRIEVAL AGENT
@@ -532,6 +536,35 @@ CONFIDENCE
 )
 
 # =============================================================================
+# SYNTHESIS / FORMATTING AGENT
+# =============================================================================
+
+synthesis_agent = create_agent(
+    model=llm,
+    tools=[],
+    system_prompt="""
+You are the SYNTHESIS AND FORMATTING AGENT of the FLUIDRA technical assistant.
+
+Your sole responsibility is to process the retrieved evidence and construct a clean, well-structured, professional, and print-ready response in the same leanguage of user question.
+
+FORMATTING AND OUTPUT RULES:
+- NEVER output raw database chunks, 'RESULT 1' tags, similarity distances, or raw JSON metadata.
+- Structure the text clearly using Markdown (bold terms, bullet points, clean paragraphs).
+- Answer only the user's question.
+- Do not add any extra information, context, explanations, or suggestions, even if they may be useful or appear in the conversation context.
+- Seamlessly integrate any additional cross-referenced page data or figures retrieved into the explanation.
+- Mention source documents and page numbers naturally (e.g., "As mention in the instalation guide, page 25...").
+- Do NOT mention the internal multi-agent architecture or tools.
+- Base your output ONLY on the provided context/evidence. Do not invent information.
+- Answer with the same language as the user's question.
+- If the answer is not contained in the provided context, clearly state that you do not have enough information to answer.
+""",
+    name="synthesis_agent",
+)
+
+
+
+# =============================================================================
 # AGENT WRAPPERS
 # =============================================================================
 
@@ -561,6 +594,18 @@ def run_retrieval_agent(question: str) -> str:
     """
     return run_agent(retrieval_agent, question)
 
+@tool
+def run_synthesis_agent(question: str, context: str) -> str:
+    """
+    Delegate the final response synthesis and print-formatting to the synthesis agent.
+    Provide the user's original question and ALL accumulated context/evidence.
+    """
+    input_text = f"User question:\n{question}\n\nAccumulated evidence and context:\n{context}"
+    return run_agent(synthesis_agent, input_text)
+# =============================================================================
+# ORCHESTRATOR / PLANNER
+# =============================================================================
+
 # =============================================================================
 # ORCHESTRATOR / PLANNER
 # =============================================================================
@@ -571,93 +616,46 @@ orchestrator_agent = create_agent(
         run_guardrails,
         run_sql_agent,
         run_retrieval_agent,
+        run_synthesis_agent,
     ],
-
     system_prompt="""
-You are the ORCHESTRATOR / PLANNER of a FLUIDRA
-technical documentation assistant.
-
-You coordinate the entire question-answering process.
+You are the ORCHESTRATOR / PLANNER of a FLUIDRA technical documentation assistant.
+You strictly execute a sequential 4-step workflow to fulfill the user's request.
 
 ===============================================================================
-STEP 1 - PLAN RETRIEVAL
+STEP 1 - GUARDRAILS CHECK
 ===============================================================================
-
-Decide which retrieval strategy is appropriate.
-
-Use SEMANTIC RETRIEVAL when:
-
-- the question is conceptual
-- the user describes a problem in natural language
-- relevant information must be discovered
-- the exact document/page is unknown
-- technical content needs semantic matching
-
-Use SQL / METADATA when:
-
-- the document is known
-- the page is known
-- the chunk type is known
-- exact metadata filtering is required
-
-Use BOTH when appropriate.
+- Immediately call `run_guardrails(question)`.
+- If the output contains "REJECTED", STOP IMMEDIATELY. Output the rejection message and do NOT execute any further tools or agents.
 
 ===============================================================================
-STEP 2 - COLLECT EVIDENCE
+STEP 2 - INITIAL SEMANTIC RETRIEVAL
 ===============================================================================
-
-Retrieve the minimum amount of evidence necessary.
-
-Do not call agents unnecessarily.
-
-For simple questions, one retrieval agent may be enough.
-
-For questions requiring both semantic understanding
-and structured filtering, use both.
+- Call `run_retrieval_agent(question)` to retrieve the top primary blocks of semantic information related to the query.
 
 ===============================================================================
-STEP 3 - FINAL ANSWER
+STEP 3 - ANALYZE CONTENT & REITERATE RETRIEVAL (CROSS-REFERENCES)
 ===============================================================================
+- Carefully analyze all retrieved text blocks from Step 2.
+- Perform semantic reasoning (do NOT rely on exact words or regex rules) to detect internal references to other pages, sections, slides, annexes, or figures.
+  Examples of references to look for contextually:
+  * "Ver página 97 para más detalles" -> target page: 97
+  * "Check last slide" / "Véase la última diapositiva" -> target chunk/page
+  * "Consulte la sección de esquemas eléctricos en el anexo 2" -> target section/page
+  * "Refer to document X, page Y" -> target document and page
 
-Generate the final answer yourself using ONLY the evidence
-returned by the retrieval agents.
-
-Rules:
-
-- Never invent technical information.
-- Never use external knowledge.
-- If the documentation does not contain the answer,
-  explicitly say so.
-- Mention document names and page numbers when available.
-- Distinguish documented facts from interpretation.
-- Keep the answer clear and concise.
-
-Do not mention the internal multi-agent architecture
-unless the user explicitly asks about it.
+- If a cross-reference to another page, slide, or document is detected:
+  * Call `run_sql_agent` with the specific target details (e.g., "Buscar la página 97 del documento X") to retrieve the referenced contents directly.
+  * If the exact document/page is ambiguous, call `run_retrieval_agent` with a targeted query for that referenced topic.
+- Combine the newly retrieved content with the initial evidence. Repeat this check once more if the new page points to another critical reference.
 
 ===============================================================================
-STEP 4 - SECURITY / GUARDRAILS
+STEP 4 - DELEGATE TO SYNTHESIS AGENT
 ===============================================================================
-
-First determine whether the question is within the
-allowed FLUIDRA technical domain.
-
-If the question is outside the domain:
-
-- reject it
-- do not query the database
-- do not call the retrieval agent
-- do not call the SQL agent
-
-Return:
-
-"This question is outside the scope of the FLUIDRA
-technical assistant. I can only help with FLUIDRA
-products, water pumps, pool and water-treatment
-equipment, installation, maintenance, troubleshooting,
-and related technical documentation."
+- Combine ALL accumulated evidence into a single clean text string context.
+- Call `run_synthesis_agent(question, context)` with the original user question and the full accumulated evidence context.
+- Return the exact response produced by `run_synthesis_agent`.
 """,
-
     name="orchestrator_agent",
 )
 

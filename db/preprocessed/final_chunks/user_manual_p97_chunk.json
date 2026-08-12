@@ -5,7 +5,7 @@
     "tables": [
         {
             "table_id": "table_1",
-            "csv_file": "output4\\tables\\user_manual_p97_table_1.csv",
+            "csv_file": "db\\preprocessed\\tables\\user_manual_p97_table_1.csv",
             "bbox": [
                 206.92222242990653,
                 307.8158888888889,
@@ -16,7 +16,7 @@
         },
         {
             "table_id": "table_2",
-            "csv_file": "output4\\tables\\user_manual_p97_table_2.csv",
+            "csv_file": "db\\preprocessed\\tables\\user_manual_p97_table_2.csv",
             "bbox": [
                 206.92222242990653,
                 353.56449999999995,
@@ -29,15 +29,58 @@
     "figures": [
         {
             "figure_id": "figure_block_1",
-            "png_file": "output4\\rendered_figures\\user_manual_p97_figure_block_1.png",
+            "png_file": "db\\preprocessed\\rendered_figures\\user_manual_p97_figure_block_1.png",
             "internal_text": "Zone 2 Zone 1 Zone 2 m 5,2 m 5,2 1,5 m 1,5 m Zone 1 Zone 0 Zone 0 1,5 m 2,0 m 2,0 m 1,5 m Zone 0 2,0 m 1,5 m 2,0 m m 5,2 m 5,2 m 5,2 1,5 m 1,5 m 2,0 m 1,5 m m 5,2 Zone 1 Zone 2 Zone 0 Zone 2 Zone 0 Outdoor area Zone 1 Zone 2 m0,2 2,0m m5,1 1,5m Zone 0 gninaelc teeF 0 enoZ INSTALLATION ZONES - Areas highlighted: the pump may be installed here / ZONES D’INSTALLATION - Espaces mentionnés : la pompe peut y être installée ZONAS DE INSTALACIÓN - Zonas marcadas: la bomba puede instalarse aquí / ZONE DI INSTALLAZIONE - Aree evidenziate: qui è possibile installare la pompa INSTALLATIONSBEREICHE - Markierte Bereiche: hier darf die Pumpe installiert werden / ZONAS DE INSTALAÇÃO - Zonas destacadas: a bomba pode ser instalada aqui ΖΏΝΕΣ ΕΓΚΑΤΆΣΤΑΣΗΣ - Περιοχές που επισημαίνονται: η αντλία μπορεί να εγκατασταθεί εδώ / ЗОНЫ УСТАНОВКИ - выделены: насос может быть установлен здесь / انه ةخضلما بيكرت نكيم :ةللظلما قطانلما - كيترلا قطانم r2 = 3,5 m r1 = 2,0 m r1 = 2,0 m r1 = 2,0 m S1 S2 r2 = 3,5 m r1 = 2,0 m r2 = 3,5 m",
             "gemini_description": {
-                "purpose": "",
-                "summary": "",
-                "components": [],
-                "procedure": [],
-                "technical_details": [],
-                "warnings": []
+                "purpose": "To define the permitted installation zones for water pumps around swimming pools and water basins, specifying safe physical distances to prevent electrical hazards.",
+                "summary": "This diagram provides a visual guide to safety zoning (Zone 0, Zone 1, and Zone 2) around both in-ground and above-ground swimming pools. It highlights that the pump may only be installed in the designated Zone 2 area, which is situated at a safe distance from the water basin.",
+                "components": [
+                    {
+                        "name": "Zone 0",
+                        "description": "The interior of the water basin or pool, including foot cleaning basins and active drainage gullies. This is a high-risk wet zone."
+                    },
+                    {
+                        "name": "Zone 1",
+                        "description": "The immediate surrounding area of the basin, extending 2.0 meters horizontally from the edge of Zone 0 and 2.5 meters vertically from the ground or walking surface."
+                    },
+                    {
+                        "name": "Zone 2",
+                        "description": "The highlighted/dotted area where the pump may be safely installed. It extends an additional 1.5 meters horizontally beyond Zone 1 (totaling 3.5 meters from the pool edge) and up to 2.5 meters vertically."
+                    },
+                    {
+                        "name": "Feet cleaning basin",
+                        "description": "An auxiliary foot wash station situated near the pool, classified internally as Zone 0 and subjected to its own concentric Zone 1 and Zone 2 boundaries."
+                    }
+                ],
+                "procedure": [
+                    "Identify the boundaries of the main water basin (Zone 0).",
+                    "Measure a horizontal distance of 2.0 meters and a vertical height of 2.5 meters from the basin edge to establish Zone 1.",
+                    "Measure an additional 1.5 meters horizontally outward from the Zone 1 boundary to mark the inner and outer limits of Zone 2.",
+                    "For pools with stairs, ladders, or slides, extend Zone 1 by 1.5 meters horizontally from these structures, with a vertical height clearance of 2.5 meters.",
+                    "Ensure that the pump is mounted exclusively within the highlighted Zone 2 region (between 2.0 meters and 3.5 meters away from Zone 0)."
+                ],
+                "technical_details": [
+                    {
+                        "detail": "Inner radius boundary (r1) for Zone 1 is exactly 2.0 meters from the pool edge."
+                    },
+                    {
+                        "detail": "Outer radius boundary (r2) representing the outer limit of Zone 2 is exactly 3.5 meters from the pool edge."
+                    },
+                    {
+                        "detail": "The maximum vertical clearance height defining both Zone 1 and Zone 2 is 2.5 meters."
+                    },
+                    {
+                        "detail": "For ladders and stairs, an elevated Zone 1 clearance zone of 1.5 meters horizontal and 2.5 meters vertical is required."
+                    },
+                    {
+                        "detail": "Clearances near walls or barriers are indicated by S1 and S2 dimensions."
+                    }
+                ],
+                "warnings": [
+                    {
+                        "warning": "The pump must only be installed in the highlighted Zone 2 areas. Do not install the pump in Zone 0 or Zone 1."
+                    }
+                ]
             },
             "bbox": [
                 41.352,
